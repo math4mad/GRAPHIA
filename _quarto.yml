@@ -19,8 +19,7 @@ website:
 
 format:
   html:
-    theme:
-      light: cosmo
-      background: "#faf8f2"
+    theme: cosmo
+    css: assets/site.css
     toc: true
     lang: zh
