@@ -1,0 +1,4 @@
+/* GRAPHIA · 米纸底 — the owner's ruling: light, not necessarily white */
+body { background-color: #faf8f2; }
+div.cell-output, .gt-table-source { background: transparent; }
+main p > img { border: 1px solid #e3ded2; border-radius: 4px; }
