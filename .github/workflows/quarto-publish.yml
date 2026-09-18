@@ -1,0 +1,29 @@
+# GRAPHIA site — Quarto weaves on the official loom (MEF's engine, v1.9.38 pinned).
+name: Render & publish GRAPHIA
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      QUARTO_PYTHON: ${{ github.workspace }}/.venv/bin/python
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: python engine for gt tables
+        run: |
+          python -m venv .venv
+          .venv/bin/pip install --quiet great_tables pandas jupyter-core jupyter-client
+      - uses: quarto-dev/quarto-actions/setup@v3
+        with: { version: "1.9.38" }
+      - run: quarto render .
+      - uses: quarto-dev/quarto-actions/publish@v3
+        with:
+          target: gh-pages
+          render: false
