@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "notes/exp10-note.html",
+    "href": "notes/exp10-note.html",
+    "title": "Exp10 实验笔记 · 概念空间正交性验证",
+    "section": "",
+    "text": "注记\n\n\n\n数据不出籍：本页一切数字可在 chora 按 sha 复核 —— artifacts/results/exp10/report_10{a,b,c}*.json · report_10d_router_v2.json · report_10g_*.json · report_10f_crossdomain.json · artifacts/results/exp11/report_11_p0.json （manifest 四向校验 · 0 失败）。表款与邻案 MEF 同源：great_tables。"
+  },
+  {
+    "objectID": "notes/exp10-note.html#一-问题怎么来的",
+    "href": "notes/exp10-note.html#一-问题怎么来的",
+    "title": "Exp10 实验笔记 · 概念空间正交性验证",
+    "section": "一 · 问题怎么来的",
+    "text": "一 · 问题怎么来的\n晨间两册实验单入 external/（收据 e4dc7ffb…/9cb8de70… 一族），核心追问一句话：\n\nLoRA 专家是否真的住在不同的概念空间里——若是，刻在读方向还是写方向？\n\n上午做一、下午做二；Qwen 据晨报追发下午单（64e8bf2a…）与正规版计划。本页收束全天七役： 10a · 10b(+seeds) · 10c(+grouped · S1) · 10d · 10g · 10f。"
+  },
+  {
+    "objectID": "notes/exp10-note.html#二-实验设计三臂对照",
+    "href": "notes/exp10-note.html#二-实验设计三臂对照",
+    "title": "Exp10 实验笔记 · 概念空间正交性验证",
+    "section": "二 · 实验设计（三臂对照）",
+    "text": "二 · 实验设计（三臂对照）\n\n基座 Qwen2.5-0.5B（manifest 88c14255…）；LoRA r=16 / lr 1e-4 / seed 13(+14/15)\n语料：春/夏 55 对，混合 110 对，代码/法律/医疗各 40 对（偏差在册）\n探测 40 题先于语料定稿哈希（38684af6…）；6-gram 泄露扫描=0；预注册四则增补先行\n度量四层：行为（命中率/JS）· 结构（V-A 读 / U-B 写 / ΔW 重叠）· 序列（teacher-forced 逐位 JS，两版内容/风格分组）· 工程（router→gate→GGUF）"
+  },
+  {
+    "objectID": "notes/exp10-note.html#三-关键结果",
+    "href": "notes/exp10-note.html#三-关键结果",
+    "title": "Exp10 实验笔记 · 概念空间正交性验证",
+    "section": "三 · 关键结果",
+    "text": "三 · 关键结果\n\n\n\n\n\n\n\n\nTable 1 · Exp10–11 判定总表 — 数字裸呈，不加修饰\n\n\n层\n判项\n数\n判定\n\n\n\n\n行为 10a\nH2 词库自命&gt;基座、交叉&lt;自命&lt; td&gt;\n春 0.84 vs 0.107 · 夏 0.493 vs 0.333 · 交叉 0.24/0.013 · 中性≈0\nPASS\n\n\n行为 10a\nH1 专家彼此最远\nJS ss 0.417/0.380 &lt; base~arm 0.551/0.575（带 0.105/0.137）\nFAILS · 符号反转\n\n\n行为 10a\nH3 中性题压缩\n差 0.049 &lt; 带 0.064\nINCONCLUSIVE\n\n\n结构 10b\nH4 中间型=第三空间\nU-B 父母对 0.547–1.244 ≪ 混~亲 1.758–2.508；ΔWov −0.002…0.135 vs 0.009…0.661\nFAILS · 零模型胜：插值\n\n\n结构 10f\nH6 跨域普适（五域）\n十对专家×专家 |ΔWov|max = 0.1294 &lt; 0.2；锚点 0.618/0.661 同板齐亮\nPASS\n\n\n序列 10c\n全序列反转幅度\ntheme 差 0.165(单点) → 0.060（缩水 3×，符号存活）\nREGISTERED\n\n\n序列 10c′\n§8 内容/风格期望图式\nss 在内容与风格上皆最小；两种 style 定义下判词不变\nDISCONFIRMED\n\n\n工程 10d→10g\n匹配与行为分\n词法 0.80/0.607 → 学习门控 0.90/0.800\nPASS · 门控胜任\n\n\n工程 GGUF\n体积与速度\nq4_K_M 374–392 MB · 149.6–165.8 t/s（目标 20 / &lt;1GB）\nPASS × 7.5\n\n\n矩阵 Exp11·P0\nH8@1.5B · H7 general 探针\n专家对 max 0.1371&lt;0.2（锚 0.592/0.637）；general~域 0.018–0.023\nPASS（首格）\n\n\n\n\n\n\n\n\n\n几何一览（写方向分居，读方向共享）\n\n\n\n\n\n\n\n\nTable 2 · 几何总表 — 概念的分居在写侧，共享在读侧；混合=插值\n\n\n对\nV-A 读 (k90)\nU-B 写 (k90)\nΔW overlap\n种子\n\n\n\n\nspring~summer\n3.818\n0.55–1.24\n−0.002 … 0.135\n✔ 13/14/15\n\n\nspring~mid\n3.834\n1.76–2.43\n0.009 … 0.635\n✔\n\n\nsummer~mid\n3.833\n1.86–2.51\n0.013 … 0.661\n✔\n\n\ncode~legal\n3.785\n1.162\n0.1294\n— 单种\n\n\ncode~medical\n3.786\n1.134\n0.1217\n—\n\n\nlegal~medical\n3.79\n1.158\n0.1284\n—\n\n\n跨新域其余 7 对\n3.78–3.80\n≤1.2\n≤0.13\n—\n\n\n1.5B: spring~summer / ~code / summer~code\n≈3.79\n≤1.3\n≤0.137\nP0\n\n\n1.5B: spring~mid / summer~mid（锚点）\n≈3.79\n≥1.7\n0.592 / 0.637\nP0"
+  },
+  {
+    "objectID": "notes/exp10-note.html#四-自我审计confession不藏不掩",
+    "href": "notes/exp10-note.html#四-自我审计confession不藏不掩",
+    "title": "Exp10 实验笔记 · 概念空间正交性验证",
+    "section": "四 · 自我审计（confession，不藏不掩）",
+    "text": "四 · 自我审计（confession，不藏不掩）\n\n10d v1 种子环内重设 → “5 采样”实为同一份五遍；当日披露、修复、重烧（v2 0.607）；v1 字节按 immutable-pin 留馆；10a 主 bench 种子在环外，晨数无恙。\nC3 首跑揭出温度极性倒置与振幅跌破零浓度两处 marimo 同源伤，双园同日修。\n教训入条：仪表的自检要在结论出口处，不在入口。"
+  },
+  {
+    "objectID": "notes/exp10-note.html#五-限度章",
+    "href": "notes/exp10-note.html#五-限度章",
+    "title": "Exp10 实验笔记 · 概念空间正交性验证",
+    "section": "五 · 限度章",
+    "text": "五 · 限度章\n0.5B/1.5B 两格已验，Qwen 家族为主；玩具语料、中文生活五科、线性门控——方向稳，幅度不作产线声明。跨家族普适待 P1。"
+  },
+  {
+    "objectID": "notes/exp10-note.html#六-下一步",
+    "href": "notes/exp10-note.html#六-下一步",
+    "title": "Exp10 实验笔记 · 概念空间正交性验证",
+    "section": "六 · 下一步",
+    "text": "六 · 下一步\nExp11 P1（3B + Llama-3.2-1B，候网络点头，先 hash 后训）· P2 收表 · 10g′ 真控制器（CDLoRA 顶层与先验指针在此合流）· exp10/exp11 双 announced 候御笔。"
+  },
+  {
+    "objectID": "notes/exp10-note.html#附录-d-方法论自指",
+    "href": "notes/exp10-note.html#附录-d-方法论自指",
+    "title": "Exp10 实验笔记 · 概念空间正交性验证",
+    "section": "附录 D · 方法论自指",
+    "text": "附录 D · 方法论自指\n本页所在的 GRAPHIA 案头即结论的活体演示：概念（Exp10 全部字节与图）住在写入它的那只手的方向里， 而所有案头读的是同一批通用几何（chora 的 manifest 与 law）。问题的形状比实验过程更不可压缩—— 先把”概念住在哪里”问成可测的几何，字节才有权回答。"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GRAPHIA · bench V",
+    "section": "",
+    "text": "GRAPHIA 因一个发现而立：同一个冻结基座上、不同领域的 LoRA 专家，其 \\(\\Delta W\\) 写方向近乎正交 （五域十对 \\(|\\Delta W_{\\text{ov}}}|_{\\max}=0.129\\)，三种子齐），读方向完全共享（15 对 V-A 全平 ≈3.8）；把两域数据混成一炉训出的”中间型”是插值，不是第三空间 —— 概念的可组合性 \\(W=W_0+\\sum_i p_i\\Delta W_i\\) 因此成立于权重几何，而不成立于输出的可分辨性（两专家在答案 的每个位置上都比各自与基座更像 —— 10c 全序列复审，两种 token 分组定义下同果）。\n\n📋 实验笔记 — 依 Qwen 报告框架六节成文，全部表格经 great_tables 美化（与 MEF 同款），含当日自我审计\n📄 论文 — paper/exp10-paper.pdf（tectonic 亲手排版；GRAPHIA 版含图）\n🔬 Exp11 矩阵进行中 — P0 (Qwen2.5-1.5B) 已闭：H8 格 PASS（max 0.137，锚点 0.592/0.637），H7 通用探针 PASS（≈0.02 — 通用 LoRA 是第六位正交书写者）；P1 候主人网络点头\n\n数据不出籍：所有数字按 (path, sha256) 指回 chora artifacts/results/exp10|11/（manifest 四向校验 0 失败）。 本站由 Quarto 织成 —— 与邻案 MEF 同一台织机。"
+  }
+]

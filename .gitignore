@@ -1,6 +1,0 @@
-.venv/
-_site/
-.quarto/
-.DS_Store
-site/tables/
-__pycache__/
