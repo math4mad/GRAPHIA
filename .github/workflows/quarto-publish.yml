@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+concurrency:
+  group: graphia-publish
+  cancel-in-progress: true
 permissions:
   contents: write
   pages: write
@@ -20,10 +23,10 @@ jobs:
         run: |
           python -m venv .venv
           .venv/bin/pip install --quiet great_tables pandas jupyter-core jupyter-client
-      - uses: quarto-dev/quarto-actions/setup@v3
+      - uses: quarto-dev/quarto-actions/setup@v2
         with: { version: "1.9.38" }
       - run: quarto render .
-      - uses: quarto-dev/quarto-actions/publish@v3
+      - uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
           render: false
