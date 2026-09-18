@@ -22,7 +22,7 @@ jobs:
       - name: python engine for gt tables
         run: |
           python -m venv .venv
-          .venv/bin/pip install --quiet great_tables pandas jupyter-core jupyter-client
+          .venv/bin/pip install --quiet great_tables pandas ipykernel jupyter-core jupyter-client
       - uses: quarto-dev/quarto-actions/setup@v2
         with: { version: "1.9.38" }
       - run: quarto render .
