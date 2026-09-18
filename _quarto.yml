@@ -21,6 +21,6 @@ format:
   html:
     theme:
       light: cosmo
-      bg: "#faf8f2"
+      background: "#faf8f2"
     toc: true
     lang: zh
