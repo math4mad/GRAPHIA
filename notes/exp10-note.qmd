@@ -33,7 +33,6 @@ format:
 
 ```{python}
 #| label: t1
-#| output-type: div
 import pandas as pd
 from great_tables import GT, md
 t1 = pd.DataFrame([
