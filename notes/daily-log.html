@@ -1,0 +1,1836 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>daily-log – GRAPHIA · 概念空间正交性案头</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3151e32f04b0ee0bfb1ca202c1e01cd7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">GRAPHIA · 概念空间正交性案头</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="搜索"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="展开或折叠导航栏" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">首页 Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../notes/exp10-note.html"> 
+<span class="menu-text">Exp10 实验笔记 · 概念空间正交性验证</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../paper/exp10-paper.pdf"> 
+<span class="menu-text">论文 Paper (PDF)</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">该页面内容</h2>
+   
+  <ul>
+  <li><a href="#园区日报-2026-09-19-夜巡" id="toc-园区日报-2026-09-19-夜巡" class="nav-link active" data-scroll-target="#园区日报-2026-09-19-夜巡">园区日报 2026-09-19 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia" id="toc-今日-commits-chora-lethe-graphia" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora" id="toc-chora" class="nav-link" data-scroll-target="#chora">chora</a></li>
+  </ul></li>
+  <li><a href="#今日批复-提醒事项" id="toc-今日批复-提醒事项" class="nav-link" data-scroll-target="#今日批复-提醒事项">今日批复 (提醒事项 ☑)</a></li>
+  <li><a href="#kaggle-矩阵近况" id="toc-kaggle-矩阵近况" class="nav-link" data-scroll-target="#kaggle-矩阵近况">Kaggle 矩阵近况</a></li>
+  <li><a href="#园区日报-2026-09-19-夜巡-1" id="toc-园区日报-2026-09-19-夜巡-1" class="nav-link" data-scroll-target="#园区日报-2026-09-19-夜巡-1">园区日报 2026-09-19 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia-1" id="toc-今日-commits-chora-lethe-graphia-1" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia-1">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora-1" id="toc-chora-1" class="nav-link" data-scroll-target="#chora-1">chora</a></li>
+  <li><a href="#graphia" id="toc-graphia" class="nav-link" data-scroll-target="#graphia">GRAPHIA</a></li>
+  </ul></li>
+  <li><a href="#今日批复-apple-ms-to-do-并集" id="toc-今日批复-apple-ms-to-do-并集" class="nav-link" data-scroll-target="#今日批复-apple-ms-to-do-并集">今日批复 (Apple ☑ + MS To Do ☑ 并集)</a></li>
+  <li><a href="#kaggle-矩阵近况-1" id="toc-kaggle-矩阵近况-1" class="nav-link" data-scroll-target="#kaggle-矩阵近况-1">Kaggle 矩阵近况</a></li>
+  <li><a href="#园区日报-2026-09-19-夜巡-2" id="toc-园区日报-2026-09-19-夜巡-2" class="nav-link" data-scroll-target="#园区日报-2026-09-19-夜巡-2">园区日报 2026-09-19 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia-2" id="toc-今日-commits-chora-lethe-graphia-2" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia-2">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora-2" id="toc-chora-2" class="nav-link" data-scroll-target="#chora-2">chora</a></li>
+  <li><a href="#graphia-1" id="toc-graphia-1" class="nav-link" data-scroll-target="#graphia-1">GRAPHIA</a></li>
+  </ul></li>
+  <li><a href="#今日批复-apple-ms-to-do-并集-1" id="toc-今日批复-apple-ms-to-do-并集-1" class="nav-link" data-scroll-target="#今日批复-apple-ms-to-do-并集-1">今日批复 (Apple ☑ + MS To Do ☑ 并集)</a></li>
+  <li><a href="#kaggle-矩阵近况-2" id="toc-kaggle-矩阵近况-2" class="nav-link" data-scroll-target="#kaggle-矩阵近况-2">Kaggle 矩阵近况</a></li>
+  <li><a href="#园区日报-2026-09-19-夜巡-3" id="toc-园区日报-2026-09-19-夜巡-3" class="nav-link" data-scroll-target="#园区日报-2026-09-19-夜巡-3">园区日报 2026-09-19 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia-3" id="toc-今日-commits-chora-lethe-graphia-3" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia-3">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora-3" id="toc-chora-3" class="nav-link" data-scroll-target="#chora-3">chora</a></li>
+  <li><a href="#concept-space-sphere" id="toc-concept-space-sphere" class="nav-link" data-scroll-target="#concept-space-sphere">Concept-Space-Sphere</a></li>
+  <li><a href="#graphia-2" id="toc-graphia-2" class="nav-link" data-scroll-target="#graphia-2">GRAPHIA</a></li>
+  </ul></li>
+  <li><a href="#今日批复-apple-ms-to-do-并集-2" id="toc-今日批复-apple-ms-to-do-并集-2" class="nav-link" data-scroll-target="#今日批复-apple-ms-to-do-并集-2">今日批复 (Apple ☑ + MS To Do ☑ 并集)</a></li>
+  <li><a href="#kaggle-矩阵近况-3" id="toc-kaggle-矩阵近况-3" class="nav-link" data-scroll-target="#kaggle-矩阵近况-3">Kaggle 矩阵近况</a></li>
+  <li><a href="#园区日报-2026-09-19-夜巡-4" id="toc-园区日报-2026-09-19-夜巡-4" class="nav-link" data-scroll-target="#园区日报-2026-09-19-夜巡-4">园区日报 2026-09-19 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia-4" id="toc-今日-commits-chora-lethe-graphia-4" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia-4">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora-4" id="toc-chora-4" class="nav-link" data-scroll-target="#chora-4">chora</a></li>
+  <li><a href="#concept-space-sphere-1" id="toc-concept-space-sphere-1" class="nav-link" data-scroll-target="#concept-space-sphere-1">Concept-Space-Sphere</a></li>
+  <li><a href="#graphia-3" id="toc-graphia-3" class="nav-link" data-scroll-target="#graphia-3">GRAPHIA</a></li>
+  </ul></li>
+  <li><a href="#今日批复-apple-ms-to-do-并集-3" id="toc-今日批复-apple-ms-to-do-并集-3" class="nav-link" data-scroll-target="#今日批复-apple-ms-to-do-并集-3">今日批复 (Apple ☑ + MS To Do ☑ 并集)</a></li>
+  <li><a href="#kaggle-矩阵近况-4" id="toc-kaggle-矩阵近况-4" class="nav-link" data-scroll-target="#kaggle-矩阵近况-4">Kaggle 矩阵近况</a></li>
+  <li><a href="#园区日报-2026-09-19-夜巡-5" id="toc-园区日报-2026-09-19-夜巡-5" class="nav-link" data-scroll-target="#园区日报-2026-09-19-夜巡-5">园区日报 2026-09-19 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia-5" id="toc-今日-commits-chora-lethe-graphia-5" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia-5">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora-5" id="toc-chora-5" class="nav-link" data-scroll-target="#chora-5">chora</a></li>
+  <li><a href="#concept-space-sphere-2" id="toc-concept-space-sphere-2" class="nav-link" data-scroll-target="#concept-space-sphere-2">Concept-Space-Sphere</a></li>
+  <li><a href="#graphia-4" id="toc-graphia-4" class="nav-link" data-scroll-target="#graphia-4">GRAPHIA</a></li>
+  </ul></li>
+  <li><a href="#今日批复-apple-ms-to-do-并集-4" id="toc-今日批复-apple-ms-to-do-并集-4" class="nav-link" data-scroll-target="#今日批复-apple-ms-to-do-并集-4">今日批复 (Apple ☑ + MS To Do ☑ 并集)</a></li>
+  <li><a href="#kaggle-矩阵近况-5" id="toc-kaggle-矩阵近况-5" class="nav-link" data-scroll-target="#kaggle-矩阵近况-5">Kaggle 矩阵近况</a></li>
+  <li><a href="#园区日报-2026-09-19-夜巡-6" id="toc-园区日报-2026-09-19-夜巡-6" class="nav-link" data-scroll-target="#园区日报-2026-09-19-夜巡-6">园区日报 2026-09-19 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia-6" id="toc-今日-commits-chora-lethe-graphia-6" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia-6">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora-6" id="toc-chora-6" class="nav-link" data-scroll-target="#chora-6">chora</a></li>
+  <li><a href="#concept-space-sphere-3" id="toc-concept-space-sphere-3" class="nav-link" data-scroll-target="#concept-space-sphere-3">Concept-Space-Sphere</a></li>
+  <li><a href="#graphia-5" id="toc-graphia-5" class="nav-link" data-scroll-target="#graphia-5">GRAPHIA</a></li>
+  </ul></li>
+  <li><a href="#今日批复-apple-ms-to-do-并集-5" id="toc-今日批复-apple-ms-to-do-并集-5" class="nav-link" data-scroll-target="#今日批复-apple-ms-to-do-并集-5">今日批复 (Apple ☑ + MS To Do ☑ 并集)</a></li>
+  <li><a href="#kaggle-矩阵近况-6" id="toc-kaggle-矩阵近况-6" class="nav-link" data-scroll-target="#kaggle-矩阵近况-6">Kaggle 矩阵近况</a></li>
+  <li><a href="#园区日报-2026-09-19-夜巡-7" id="toc-园区日报-2026-09-19-夜巡-7" class="nav-link" data-scroll-target="#园区日报-2026-09-19-夜巡-7">园区日报 2026-09-19 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia-7" id="toc-今日-commits-chora-lethe-graphia-7" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia-7">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora-7" id="toc-chora-7" class="nav-link" data-scroll-target="#chora-7">chora</a></li>
+  <li><a href="#concept-space-sphere-4" id="toc-concept-space-sphere-4" class="nav-link" data-scroll-target="#concept-space-sphere-4">Concept-Space-Sphere</a></li>
+  <li><a href="#graphia-6" id="toc-graphia-6" class="nav-link" data-scroll-target="#graphia-6">GRAPHIA</a></li>
+  </ul></li>
+  <li><a href="#今日批复-apple-ms-to-do-并集-6" id="toc-今日批复-apple-ms-to-do-并集-6" class="nav-link" data-scroll-target="#今日批复-apple-ms-to-do-并集-6">今日批复 (Apple ☑ + MS To Do ☑ 并集)</a></li>
+  <li><a href="#kaggle-矩阵近况-7" id="toc-kaggle-矩阵近况-7" class="nav-link" data-scroll-target="#kaggle-矩阵近况-7">Kaggle 矩阵近况</a></li>
+  <li><a href="#园区日报-2026-09-19-夜巡-8" id="toc-园区日报-2026-09-19-夜巡-8" class="nav-link" data-scroll-target="#园区日报-2026-09-19-夜巡-8">园区日报 2026-09-19 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia-8" id="toc-今日-commits-chora-lethe-graphia-8" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia-8">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora-8" id="toc-chora-8" class="nav-link" data-scroll-target="#chora-8">chora</a></li>
+  <li><a href="#concept-space-sphere-5" id="toc-concept-space-sphere-5" class="nav-link" data-scroll-target="#concept-space-sphere-5">Concept-Space-Sphere</a></li>
+  <li><a href="#graphia-7" id="toc-graphia-7" class="nav-link" data-scroll-target="#graphia-7">GRAPHIA</a></li>
+  </ul></li>
+  <li><a href="#今日批复-apple-ms-to-do-并集-7" id="toc-今日批复-apple-ms-to-do-并集-7" class="nav-link" data-scroll-target="#今日批复-apple-ms-to-do-并集-7">今日批复 (Apple ☑ + MS To Do ☑ 并集)</a></li>
+  <li><a href="#kaggle-矩阵近况-8" id="toc-kaggle-矩阵近况-8" class="nav-link" data-scroll-target="#kaggle-矩阵近况-8">Kaggle 矩阵近况</a></li>
+  <li><a href="#园区日报-2026-09-19-夜巡-9" id="toc-园区日报-2026-09-19-夜巡-9" class="nav-link" data-scroll-target="#园区日报-2026-09-19-夜巡-9">园区日报 2026-09-19 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia-9" id="toc-今日-commits-chora-lethe-graphia-9" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia-9">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora-9" id="toc-chora-9" class="nav-link" data-scroll-target="#chora-9">chora</a></li>
+  <li><a href="#concept-space-sphere-6" id="toc-concept-space-sphere-6" class="nav-link" data-scroll-target="#concept-space-sphere-6">Concept-Space-Sphere</a></li>
+  <li><a href="#graphia-8" id="toc-graphia-8" class="nav-link" data-scroll-target="#graphia-8">GRAPHIA</a></li>
+  </ul></li>
+  <li><a href="#今日批复-apple-ms-to-do-并集-8" id="toc-今日批复-apple-ms-to-do-并集-8" class="nav-link" data-scroll-target="#今日批复-apple-ms-to-do-并集-8">今日批复 (Apple ☑ + MS To Do ☑ 并集)</a></li>
+  <li><a href="#kaggle-矩阵近况-9" id="toc-kaggle-矩阵近况-9" class="nav-link" data-scroll-target="#kaggle-矩阵近况-9">Kaggle 矩阵近况</a></li>
+  <li><a href="#园区日报-2026-09-19-夜巡-10" id="toc-园区日报-2026-09-19-夜巡-10" class="nav-link" data-scroll-target="#园区日报-2026-09-19-夜巡-10">园区日报 2026-09-19 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia-10" id="toc-今日-commits-chora-lethe-graphia-10" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia-10">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora-10" id="toc-chora-10" class="nav-link" data-scroll-target="#chora-10">chora</a></li>
+  <li><a href="#concept-space-sphere-7" id="toc-concept-space-sphere-7" class="nav-link" data-scroll-target="#concept-space-sphere-7">Concept-Space-Sphere</a></li>
+  <li><a href="#graphia-9" id="toc-graphia-9" class="nav-link" data-scroll-target="#graphia-9">GRAPHIA</a></li>
+  </ul></li>
+  <li><a href="#今日批复-apple-ms-to-do-并集-9" id="toc-今日批复-apple-ms-to-do-并集-9" class="nav-link" data-scroll-target="#今日批复-apple-ms-to-do-并集-9">今日批复 (Apple ☑ + MS To Do ☑ 并集)</a></li>
+  <li><a href="#kaggle-矩阵近况-10" id="toc-kaggle-矩阵近况-10" class="nav-link" data-scroll-target="#kaggle-矩阵近况-10">Kaggle 矩阵近况</a></li>
+  <li><a href="#园区日报-2026-09-19-夜巡-11" id="toc-园区日报-2026-09-19-夜巡-11" class="nav-link" data-scroll-target="#园区日报-2026-09-19-夜巡-11">园区日报 2026-09-19 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia-11" id="toc-今日-commits-chora-lethe-graphia-11" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia-11">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora-11" id="toc-chora-11" class="nav-link" data-scroll-target="#chora-11">chora</a></li>
+  <li><a href="#concept-space-sphere-8" id="toc-concept-space-sphere-8" class="nav-link" data-scroll-target="#concept-space-sphere-8">Concept-Space-Sphere</a></li>
+  <li><a href="#graphia-10" id="toc-graphia-10" class="nav-link" data-scroll-target="#graphia-10">GRAPHIA</a></li>
+  </ul></li>
+  <li><a href="#今日批复-apple-ms-to-do-并集-10" id="toc-今日批复-apple-ms-to-do-并集-10" class="nav-link" data-scroll-target="#今日批复-apple-ms-to-do-并集-10">今日批复 (Apple ☑ + MS To Do ☑ 并集)</a></li>
+  <li><a href="#kaggle-矩阵近况-11" id="toc-kaggle-矩阵近况-11" class="nav-link" data-scroll-target="#kaggle-矩阵近况-11">Kaggle 矩阵近况</a></li>
+  <li><a href="#园区日报-2026-09-19-夜巡-12" id="toc-园区日报-2026-09-19-夜巡-12" class="nav-link" data-scroll-target="#园区日报-2026-09-19-夜巡-12">园区日报 2026-09-19 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia-12" id="toc-今日-commits-chora-lethe-graphia-12" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia-12">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora-12" id="toc-chora-12" class="nav-link" data-scroll-target="#chora-12">chora</a></li>
+  <li><a href="#concept-space-sphere-9" id="toc-concept-space-sphere-9" class="nav-link" data-scroll-target="#concept-space-sphere-9">Concept-Space-Sphere</a></li>
+  <li><a href="#graphia-11" id="toc-graphia-11" class="nav-link" data-scroll-target="#graphia-11">GRAPHIA</a></li>
+  </ul></li>
+  <li><a href="#今日批复-apple-ms-to-do-并集-11" id="toc-今日批复-apple-ms-to-do-并集-11" class="nav-link" data-scroll-target="#今日批复-apple-ms-to-do-并集-11">今日批复 (Apple ☑ + MS To Do ☑ 并集)</a></li>
+  <li><a href="#kaggle-矩阵近况-12" id="toc-kaggle-矩阵近况-12" class="nav-link" data-scroll-target="#kaggle-矩阵近况-12">Kaggle 矩阵近况</a></li>
+  <li><a href="#园区日报-2026-09-19-夜巡-13" id="toc-园区日报-2026-09-19-夜巡-13" class="nav-link" data-scroll-target="#园区日报-2026-09-19-夜巡-13">园区日报 2026-09-19 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia-13" id="toc-今日-commits-chora-lethe-graphia-13" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia-13">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora-13" id="toc-chora-13" class="nav-link" data-scroll-target="#chora-13">chora</a></li>
+  <li><a href="#concept-space-sphere-10" id="toc-concept-space-sphere-10" class="nav-link" data-scroll-target="#concept-space-sphere-10">Concept-Space-Sphere</a></li>
+  <li><a href="#graphia-12" id="toc-graphia-12" class="nav-link" data-scroll-target="#graphia-12">GRAPHIA</a></li>
+  </ul></li>
+  <li><a href="#今日批复-apple-ms-to-do-并集-12" id="toc-今日批复-apple-ms-to-do-并集-12" class="nav-link" data-scroll-target="#今日批复-apple-ms-to-do-并集-12">今日批复 (Apple ☑ + MS To Do ☑ 并集)</a></li>
+  <li><a href="#kaggle-矩阵近况-13" id="toc-kaggle-矩阵近况-13" class="nav-link" data-scroll-target="#kaggle-矩阵近况-13">Kaggle 矩阵近况</a></li>
+  <li><a href="#园区日报-2026-09-19-夜巡-14" id="toc-园区日报-2026-09-19-夜巡-14" class="nav-link" data-scroll-target="#园区日报-2026-09-19-夜巡-14">园区日报 2026-09-19 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia-14" id="toc-今日-commits-chora-lethe-graphia-14" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia-14">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora-14" id="toc-chora-14" class="nav-link" data-scroll-target="#chora-14">chora</a></li>
+  <li><a href="#concept-space-sphere-11" id="toc-concept-space-sphere-11" class="nav-link" data-scroll-target="#concept-space-sphere-11">Concept-Space-Sphere</a></li>
+  <li><a href="#graphia-13" id="toc-graphia-13" class="nav-link" data-scroll-target="#graphia-13">GRAPHIA</a></li>
+  </ul></li>
+  <li><a href="#今日批复-apple-ms-to-do-并集-13" id="toc-今日批复-apple-ms-to-do-并集-13" class="nav-link" data-scroll-target="#今日批复-apple-ms-to-do-并集-13">今日批复 (Apple ☑ + MS To Do ☑ 并集)</a></li>
+  <li><a href="#kaggle-矩阵近况-14" id="toc-kaggle-矩阵近况-14" class="nav-link" data-scroll-target="#kaggle-矩阵近况-14">Kaggle 矩阵近况</a></li>
+  <li><a href="#园区日报-2026-09-19-夜巡-15" id="toc-园区日报-2026-09-19-夜巡-15" class="nav-link" data-scroll-target="#园区日报-2026-09-19-夜巡-15">园区日报 2026-09-19 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia-15" id="toc-今日-commits-chora-lethe-graphia-15" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia-15">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora-15" id="toc-chora-15" class="nav-link" data-scroll-target="#chora-15">chora</a></li>
+  <li><a href="#concept-space-sphere-12" id="toc-concept-space-sphere-12" class="nav-link" data-scroll-target="#concept-space-sphere-12">Concept-Space-Sphere</a></li>
+  <li><a href="#graphia-14" id="toc-graphia-14" class="nav-link" data-scroll-target="#graphia-14">GRAPHIA</a></li>
+  </ul></li>
+  <li><a href="#今日批复-apple-ms-to-do-并集-14" id="toc-今日批复-apple-ms-to-do-并集-14" class="nav-link" data-scroll-target="#今日批复-apple-ms-to-do-并集-14">今日批复 (Apple ☑ + MS To Do ☑ 并集)</a></li>
+  <li><a href="#kaggle-矩阵近况-15" id="toc-kaggle-矩阵近况-15" class="nav-link" data-scroll-target="#kaggle-矩阵近况-15">Kaggle 矩阵近况</a></li>
+  <li><a href="#园区日报-2026-09-20-夜巡" id="toc-园区日报-2026-09-20-夜巡" class="nav-link" data-scroll-target="#园区日报-2026-09-20-夜巡">园区日报 2026-09-20 · 夜巡</a></li>
+  <li><a href="#今日-commits-chora-lethe-graphia-16" id="toc-今日-commits-chora-lethe-graphia-16" class="nav-link" data-scroll-target="#今日-commits-chora-lethe-graphia-16">今日 commits (chora / LETHE / GRAPHIA)</a>
+  <ul class="collapse">
+  <li><a href="#chora-16" id="toc-chora-16" class="nav-link" data-scroll-target="#chora-16">chora</a></li>
+  <li><a href="#concept-space-sphere-13" id="toc-concept-space-sphere-13" class="nav-link" data-scroll-target="#concept-space-sphere-13">Concept-Space-Sphere</a></li>
+  </ul></li>
+  <li><a href="#今日批复-apple-ms-to-do-并集-15" id="toc-今日批复-apple-ms-to-do-并集-15" class="nav-link" data-scroll-target="#今日批复-apple-ms-to-do-并集-15">今日批复 (Apple ☑ + MS To Do ☑ 并集)</a></li>
+  <li><a href="#外界哨位" id="toc-外界哨位" class="nav-link" data-scroll-target="#外界哨位">外界哨位</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="园区日报-2026-09-19-夜巡" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-19-夜巡">园区日报 2026-09-19 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora" class="level3">
+<h3 class="anchored" data-anchor-id="chora">chora</h3>
+<ul>
+<li><code>3dc62ea</code> status snapshot (auto: publish-status)</li>
+<li><code>d8660a7</code> status snapshot (auto: publish-status)</li>
+<li><code>620769a</code> status snapshot (auto: publish-status)</li>
+<li><code>48535c1</code> status snapshot (auto: publish-status)</li>
+<li><code>870b681</code> status snapshot (auto: publish-status)</li>
+<li><code>d6a8342</code> status snapshot (auto: publish-status)</li>
+<li><code>04b8291</code> status snapshot (auto: publish-status)</li>
+<li><code>849155d</code> status snapshot (auto: publish-status)</li>
+<li><code>8215f06</code> status snapshot (auto: publish-status)</li>
+<li><code>abfe797</code> status snapshot (auto: publish-status)</li>
+<li><code>549c21a</code> status snapshot (auto: publish-status)</li>
+<li><code>4e6ee3c</code> Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay</li>
+<li><code>fe43a14</code> status snapshot (auto: publish-status)</li>
+<li><code>e3de52b</code> status snapshot (auto: publish-status)</li>
+<li><code>aa4ce06</code> status snapshot (auto: publish-status)</li>
+<li><code>1c38194</code> Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms</li>
+<li><code>8fb100a</code> status snapshot (auto: publish-status)</li>
+<li><code>292431b</code> status snapshot (auto: publish-status)</li>
+<li><code>943c42f</code> status snapshot (auto: publish-status)</li>
+<li><code>81e3a96</code> Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10</li>
+<li><code>b045786</code> status snapshot (auto: publish-status)</li>
+<li><code>94eb271</code> status snapshot (auto: publish-status)</li>
+<li><code>b929fca</code> status snapshot (auto: publish-status)</li>
+<li><code>d457f23</code> status snapshot (auto: publish-status)</li>
+<li><code>25466c5</code> status snapshot (auto: publish-status)</li>
+<li><code>fb78207</code> status snapshot (auto: publish-status)</li>
+<li><code>4277e19</code> status snapshot (auto: publish-status)</li>
+<li><code>61570be</code> status snapshot (auto: publish-status)</li>
+<li><code>7b192b4</code> status snapshot (auto: publish-status)</li>
+<li><code>d3a5421</code> status snapshot (auto: publish-status)</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-提醒事项" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-提醒事项">今日批复 (提醒事项 ☑)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条</p>
+</section>
+<section id="kaggle-矩阵近况" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle-矩阵近况">Kaggle 矩阵近况</h2>
+<p>10:24:27 push qwen15 → Your kernel title does not resolve to the specified id. This 10:24:31 push qwen3 → Your kernel title does not resolve to the specified id. This 10:24:34 loop: running=2 done=0 10:34:38 push qwen15 → Your kernel title does not resolve to the specified id. This 10:34:42 push qwen3 → Your kernel title does not resolve to the specified id. This 10:34:45 loop: running=2 done=0</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+</section>
+<section id="园区日报-2026-09-19-夜巡-1" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-19-夜巡-1">园区日报 2026-09-19 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia-1" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia-1">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora-1" class="level3">
+<h3 class="anchored" data-anchor-id="chora-1">chora</h3>
+<ul>
+<li><code>29adf90</code> daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note</li>
+<li><code>d8ae302</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>4e6ee3c</code> Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay</li>
+<li><code>1c38194</code> Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms</li>
+<li><code>81e3a96</code> Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10</li>
+<li>(+29 条自动快照，略)</li>
+</ul>
+</section>
+<section id="graphia" class="level3">
+<h3 class="anchored" data-anchor-id="graphia">GRAPHIA</h3>
+<ul>
+<li><code>22215d1</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-apple-ms-to-do-并集" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-apple-ms-to-do-并集">今日批复 (Apple ☑ + MS To Do ☑ 并集)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复</p>
+</section>
+<section id="kaggle-矩阵近况-1" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle-矩阵近况-1">Kaggle 矩阵近况</h2>
+<p>10:34:38 push qwen15 → Your kernel title does not resolve to the specified id. This 10:34:42 push qwen3 → Your kernel title does not resolve to the specified id. This 10:34:45 loop: running=2 done=0 10:44:48 push qwen15 → Your kernel title does not resolve to the specified id. This 10:44:54 push qwen3 → Your kernel title does not resolve to the specified id. This 10:44:57 loop: running=2 done=0</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+</section>
+<section id="园区日报-2026-09-19-夜巡-2" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-19-夜巡-2">园区日报 2026-09-19 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia-2" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia-2">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora-2" class="level3">
+<h3 class="anchored" data-anchor-id="chora-2">chora</h3>
+<ul>
+<li><code>ac95b87</code> dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静</li>
+<li><code>3d8252f</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>29adf90</code> daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note</li>
+<li><code>d8ae302</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>4e6ee3c</code> Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay</li>
+<li><code>1c38194</code> Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms</li>
+<li><code>81e3a96</code> Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10</li>
+<li>(+29 条自动快照，略)</li>
+</ul>
+</section>
+<section id="graphia-1" class="level3">
+<h3 class="anchored" data-anchor-id="graphia-1">GRAPHIA</h3>
+<ul>
+<li><code>a13b0b5</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>22215d1</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-apple-ms-to-do-并集-1" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-apple-ms-to-do-并集-1">今日批复 (Apple ☑ + MS To Do ☑ 并集)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复</p>
+</section>
+<section id="kaggle-矩阵近况-2" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle-矩阵近况-2">Kaggle 矩阵近况</h2>
+<p>10:44:54 push qwen3 → Your kernel title does not resolve to the specified id. This 10:44:57 loop: running=2 done=0 10:48:09 push qwen7 → Kernel version 1 successfully pushed. Please check progress 10:48:14 push llama1 → Kernel version 1 successfully pushed. Please check progress 10:48:14 loop: running=2 done=0 10:50:14 qwen15 ERROR (见 0)</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+</section>
+<section id="园区日报-2026-09-19-夜巡-3" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-19-夜巡-3">园区日报 2026-09-19 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia-3" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia-3">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora-3" class="level3">
+<h3 class="anchored" data-anchor-id="chora-3">chora</h3>
+<ul>
+<li><code>854fb2e</code> H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)</li>
+<li><code>ce92b67</code> 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册</li>
+<li><code>da506ac</code> xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)</li>
+<li><code>156d106</code> M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)</li>
+<li><code>d477c14</code> M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁</li>
+<li><code>351d962</code> 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)</li>
+<li><code>64233f0</code> atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病</li>
+<li><code>983bb7d</code> xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第</li>
+<li><code>fcd4953</code> Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名</li>
+<li><code>6c58ba7</code> Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天</li>
+<li><code>d901575</code> atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)</li>
+<li><code>17b821f</code> Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上</li>
+<li><code>ad94393</code> torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新</li>
+<li><code>2fa9f95</code> 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤</li>
+<li><code>9397618</code> MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py</li>
+<li><code>66e7e74</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>ac95b87</code> dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静</li>
+<li><code>3d8252f</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>29adf90</code> daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note</li>
+<li><code>d8ae302</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>4e6ee3c</code> Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay</li>
+<li><code>1c38194</code> Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms</li>
+<li><code>81e3a96</code> Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10</li>
+<li>(+46 条自动快照，略)</li>
+</ul>
+</section>
+<section id="concept-space-sphere" class="level3">
+<h3 class="anchored" data-anchor-id="concept-space-sphere">Concept-Space-Sphere</h3>
+<ul>
+<li><code>02f508b</code> 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略</li>
+<li><code>bb2cd5b</code> 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)</li>
+<li><code>93fffee</code> 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f</li>
+<li><code>9111ef0</code> 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留</li>
+</ul>
+</section>
+<section id="graphia-2" class="level3">
+<h3 class="anchored" data-anchor-id="graphia-2">GRAPHIA</h3>
+<ul>
+<li><code>25364a0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a13b0b5</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>22215d1</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-apple-ms-to-do-并集-2" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-apple-ms-to-do-并集-2">今日批复 (Apple ☑ + MS To Do ☑ 并集)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS 每日memo ☑MS 🧪 通路自证 Mac→Exchange→To Do (Lola ☑MS 此刻应已现身您手机) ☑MS 你好lola ☑MS 回复：你好主人 — 双向桥检收 ✔ (iCloud晨圈+ToDo镜像 ☑MS 勾即批复)</p>
+</section>
+<section id="kaggle-矩阵近况-3" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle-矩阵近况-3">Kaggle 矩阵近况</h2>
+<p>12:34:13 qwen15 ERROR (见 2) 12:34:19 qwen3 ERROR (见 2) 12:34:23 qwen7 ERROR (见 2) 12:34:28 llama1 ERROR (见 2) 12:34:28 loop: running=0 done=4 12:34:28 ALL 4 BASES SETTLED</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+</section>
+<section id="园区日报-2026-09-19-夜巡-4" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-19-夜巡-4">园区日报 2026-09-19 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia-4" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia-4">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora-4" class="level3">
+<h3 class="anchored" data-anchor-id="chora-4">chora</h3>
+<ul>
+<li><code>db4d3a4</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>854fb2e</code> H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)</li>
+<li><code>ce92b67</code> 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册</li>
+<li><code>da506ac</code> xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)</li>
+<li><code>156d106</code> M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)</li>
+<li><code>d477c14</code> M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁</li>
+<li><code>351d962</code> 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)</li>
+<li><code>64233f0</code> atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病</li>
+<li><code>983bb7d</code> xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第</li>
+<li><code>fcd4953</code> Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名</li>
+<li><code>6c58ba7</code> Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天</li>
+<li><code>d901575</code> atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)</li>
+<li><code>17b821f</code> Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上</li>
+<li><code>ad94393</code> torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新</li>
+<li><code>2fa9f95</code> 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤</li>
+<li><code>9397618</code> MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py</li>
+<li><code>66e7e74</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>ac95b87</code> dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静</li>
+<li><code>3d8252f</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>29adf90</code> daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note</li>
+<li><code>d8ae302</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>4e6ee3c</code> Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay</li>
+<li><code>1c38194</code> Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms</li>
+<li><code>81e3a96</code> Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10</li>
+<li>(+46 条自动快照，略)</li>
+</ul>
+</section>
+<section id="concept-space-sphere-1" class="level3">
+<h3 class="anchored" data-anchor-id="concept-space-sphere-1">Concept-Space-Sphere</h3>
+<ul>
+<li><code>02f508b</code> 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略</li>
+<li><code>bb2cd5b</code> 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)</li>
+<li><code>93fffee</code> 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f</li>
+<li><code>9111ef0</code> 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留</li>
+</ul>
+</section>
+<section id="graphia-3" class="level3">
+<h3 class="anchored" data-anchor-id="graphia-3">GRAPHIA</h3>
+<ul>
+<li><code>63e252d</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>25364a0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a13b0b5</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>22215d1</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-apple-ms-to-do-并集-3" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-apple-ms-to-do-并集-3">今日批复 (Apple ☑ + MS To Do ☑ 并集)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS 每日memo ☑MS 🧪 通路自证 Mac→Exchange→To Do (Lola ☑MS 此刻应已现身您手机) ☑MS 你好lola ☑MS 回复：你好主人 — 双向桥检收 ✔ (iCloud晨圈+ToDo镜像 ☑MS 勾即批复)</p>
+</section>
+<section id="kaggle-矩阵近况-4" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle-矩阵近况-4">Kaggle 矩阵近况</h2>
+<p>12:34:13 qwen15 ERROR (见 2) 12:34:19 qwen3 ERROR (见 2) 12:34:23 qwen7 ERROR (见 2) 12:34:28 llama1 ERROR (见 2) 12:34:28 loop: running=0 done=4 12:34:28 ALL 4 BASES SETTLED</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+</section>
+<section id="园区日报-2026-09-19-夜巡-5" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-19-夜巡-5">园区日报 2026-09-19 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia-5" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia-5">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora-5" class="level3">
+<h3 class="anchored" data-anchor-id="chora-5">chora</h3>
+<ul>
+<li><code>b2a9b9b</code> 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录</li>
+<li><code>e2bad24</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>db4d3a4</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>854fb2e</code> H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)</li>
+<li><code>ce92b67</code> 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册</li>
+<li><code>da506ac</code> xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)</li>
+<li><code>156d106</code> M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)</li>
+<li><code>d477c14</code> M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁</li>
+<li><code>351d962</code> 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)</li>
+<li><code>64233f0</code> atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病</li>
+<li><code>983bb7d</code> xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第</li>
+<li><code>fcd4953</code> Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名</li>
+<li><code>6c58ba7</code> Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天</li>
+<li><code>d901575</code> atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)</li>
+<li><code>17b821f</code> Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上</li>
+<li><code>ad94393</code> torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新</li>
+<li><code>2fa9f95</code> 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤</li>
+<li><code>9397618</code> MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py</li>
+<li><code>66e7e74</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>ac95b87</code> dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静</li>
+<li><code>3d8252f</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>29adf90</code> daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note</li>
+<li><code>d8ae302</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>4e6ee3c</code> Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay</li>
+<li><code>1c38194</code> Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms</li>
+<li><code>81e3a96</code> Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10</li>
+<li>(+46 条自动快照，略)</li>
+</ul>
+</section>
+<section id="concept-space-sphere-2" class="level3">
+<h3 class="anchored" data-anchor-id="concept-space-sphere-2">Concept-Space-Sphere</h3>
+<ul>
+<li><code>02f508b</code> 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略</li>
+<li><code>bb2cd5b</code> 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)</li>
+<li><code>93fffee</code> 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f</li>
+<li><code>9111ef0</code> 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留</li>
+</ul>
+</section>
+<section id="graphia-4" class="level3">
+<h3 class="anchored" data-anchor-id="graphia-4">GRAPHIA</h3>
+<ul>
+<li><code>6036e95</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>63e252d</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>25364a0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a13b0b5</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>22215d1</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-apple-ms-to-do-并集-4" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-apple-ms-to-do-并集-4">今日批复 (Apple ☑ + MS To Do ☑ 并集)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS 每日memo ☑MS 🧪 通路自证 Mac→Exchange→To Do (Lola ☑MS 此刻应已现身您手机) ☑MS 你好lola ☑MS 回复：你好主人 — 双向桥检收 ✔ (iCloud晨圈+ToDo镜像 ☑MS 勾即批复)</p>
+</section>
+<section id="kaggle-矩阵近况-5" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle-矩阵近况-5">Kaggle 矩阵近况</h2>
+<p>12:34:13 qwen15 ERROR (见 2) 12:34:19 qwen3 ERROR (见 2) 12:34:23 qwen7 ERROR (见 2) 12:34:28 llama1 ERROR (见 2) 12:34:28 loop: running=0 done=4 12:34:28 ALL 4 BASES SETTLED</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+</section>
+<section id="园区日报-2026-09-19-夜巡-6" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-19-夜巡-6">园区日报 2026-09-19 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia-6" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia-6">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora-6" class="level3">
+<h3 class="anchored" data-anchor-id="chora-6">chora</h3>
+<ul>
+<li><code>f0e5c5b</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>b2a9b9b</code> 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录</li>
+<li><code>e2bad24</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>db4d3a4</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>854fb2e</code> H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)</li>
+<li><code>ce92b67</code> 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册</li>
+<li><code>da506ac</code> xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)</li>
+<li><code>156d106</code> M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)</li>
+<li><code>d477c14</code> M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁</li>
+<li><code>351d962</code> 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)</li>
+<li><code>64233f0</code> atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病</li>
+<li><code>983bb7d</code> xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第</li>
+<li><code>fcd4953</code> Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名</li>
+<li><code>6c58ba7</code> Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天</li>
+<li><code>d901575</code> atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)</li>
+<li><code>17b821f</code> Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上</li>
+<li><code>ad94393</code> torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新</li>
+<li><code>2fa9f95</code> 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤</li>
+<li><code>9397618</code> MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py</li>
+<li><code>66e7e74</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>ac95b87</code> dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静</li>
+<li><code>3d8252f</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>29adf90</code> daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note</li>
+<li><code>d8ae302</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>4e6ee3c</code> Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay</li>
+<li><code>1c38194</code> Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms</li>
+<li><code>81e3a96</code> Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10</li>
+<li>(+46 条自动快照，略)</li>
+</ul>
+</section>
+<section id="concept-space-sphere-3" class="level3">
+<h3 class="anchored" data-anchor-id="concept-space-sphere-3">Concept-Space-Sphere</h3>
+<ul>
+<li><code>02f508b</code> 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略</li>
+<li><code>bb2cd5b</code> 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)</li>
+<li><code>93fffee</code> 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f</li>
+<li><code>9111ef0</code> 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留</li>
+</ul>
+</section>
+<section id="graphia-5" class="level3">
+<h3 class="anchored" data-anchor-id="graphia-5">GRAPHIA</h3>
+<ul>
+<li><code>d7b2052</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>6036e95</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>63e252d</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>25364a0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a13b0b5</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>22215d1</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-apple-ms-to-do-并集-5" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-apple-ms-to-do-并集-5">今日批复 (Apple ☑ + MS To Do ☑ 并集)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS 每日memo ☑MS 🧪 通路自证 Mac→Exchange→To Do (Lola ☑MS 此刻应已现身您手机) ☑MS 你好lola ☑MS 回复：你好主人 — 双向桥检收 ✔ (iCloud晨圈+ToDo镜像 ☑MS 勾即批复)</p>
+</section>
+<section id="kaggle-矩阵近况-6" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle-矩阵近况-6">Kaggle 矩阵近况</h2>
+<p>12:34:13 qwen15 ERROR (见 2) 12:34:19 qwen3 ERROR (见 2) 12:34:23 qwen7 ERROR (见 2) 12:34:28 llama1 ERROR (见 2) 12:34:28 loop: running=0 done=4 12:34:28 ALL 4 BASES SETTLED</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+</section>
+<section id="园区日报-2026-09-19-夜巡-7" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-19-夜巡-7">园区日报 2026-09-19 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia-7" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia-7">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora-7" class="level3">
+<h3 class="anchored" data-anchor-id="chora-7">chora</h3>
+<ul>
+<li><code>7923353</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>f0e5c5b</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>b2a9b9b</code> 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录</li>
+<li><code>e2bad24</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>db4d3a4</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>854fb2e</code> H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)</li>
+<li><code>ce92b67</code> 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册</li>
+<li><code>da506ac</code> xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)</li>
+<li><code>156d106</code> M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)</li>
+<li><code>d477c14</code> M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁</li>
+<li><code>351d962</code> 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)</li>
+<li><code>64233f0</code> atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病</li>
+<li><code>983bb7d</code> xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第</li>
+<li><code>fcd4953</code> Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名</li>
+<li><code>6c58ba7</code> Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天</li>
+<li><code>d901575</code> atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)</li>
+<li><code>17b821f</code> Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上</li>
+<li><code>ad94393</code> torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新</li>
+<li><code>2fa9f95</code> 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤</li>
+<li><code>9397618</code> MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py</li>
+<li><code>66e7e74</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>ac95b87</code> dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静</li>
+<li><code>3d8252f</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>29adf90</code> daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note</li>
+<li><code>d8ae302</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>4e6ee3c</code> Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay</li>
+<li><code>1c38194</code> Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms</li>
+<li><code>81e3a96</code> Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10</li>
+<li>(+46 条自动快照，略)</li>
+</ul>
+</section>
+<section id="concept-space-sphere-4" class="level3">
+<h3 class="anchored" data-anchor-id="concept-space-sphere-4">Concept-Space-Sphere</h3>
+<ul>
+<li><code>02f508b</code> 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略</li>
+<li><code>bb2cd5b</code> 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)</li>
+<li><code>93fffee</code> 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f</li>
+<li><code>9111ef0</code> 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留</li>
+</ul>
+</section>
+<section id="graphia-6" class="level3">
+<h3 class="anchored" data-anchor-id="graphia-6">GRAPHIA</h3>
+<ul>
+<li><code>e14611a</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>d7b2052</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>6036e95</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>63e252d</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>25364a0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a13b0b5</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>22215d1</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-apple-ms-to-do-并集-6" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-apple-ms-to-do-并集-6">今日批复 (Apple ☑ + MS To Do ☑ 并集)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS 每日memo ☑MS 🧪 通路自证 Mac→Exchange→To Do (Lola ☑MS 此刻应已现身您手机) ☑MS 你好lola ☑MS 回复：你好主人 — 双向桥检收 ✔ (iCloud晨圈+ToDo镜像 ☑MS 勾即批复)</p>
+</section>
+<section id="kaggle-矩阵近况-7" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle-矩阵近况-7">Kaggle 矩阵近况</h2>
+<p>12:34:13 qwen15 ERROR (见 2) 12:34:19 qwen3 ERROR (见 2) 12:34:23 qwen7 ERROR (见 2) 12:34:28 llama1 ERROR (见 2) 12:34:28 loop: running=0 done=4 12:34:28 ALL 4 BASES SETTLED</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+</section>
+<section id="园区日报-2026-09-19-夜巡-8" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-19-夜巡-8">园区日报 2026-09-19 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia-8" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia-8">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora-8" class="level3">
+<h3 class="anchored" data-anchor-id="chora-8">chora</h3>
+<ul>
+<li><code>1989430</code> 第三屏正式通车: daily_note.py 定稿 (sanitize: 反斜翻倍/摘直引/弯引归正三段政策, 多行 repeat 删除重建) + 夜巡挂钩绝对路径 — 一稿三面定式闭环: 提醒=批复, 邮件=读物, 备忘录=回看; 两役学费 (一行式 repeat 与引号丛林) 皆化为码内注释</li>
+<li><code>8739063</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>7923353</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>f0e5c5b</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>b2a9b9b</code> 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录</li>
+<li><code>e2bad24</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>db4d3a4</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>854fb2e</code> H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)</li>
+<li><code>ce92b67</code> 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册</li>
+<li><code>da506ac</code> xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)</li>
+<li><code>156d106</code> M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)</li>
+<li><code>d477c14</code> M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁</li>
+<li><code>351d962</code> 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)</li>
+<li><code>64233f0</code> atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病</li>
+<li><code>983bb7d</code> xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第</li>
+<li><code>fcd4953</code> Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名</li>
+<li><code>6c58ba7</code> Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天</li>
+<li><code>d901575</code> atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)</li>
+<li><code>17b821f</code> Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上</li>
+<li><code>ad94393</code> torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新</li>
+<li><code>2fa9f95</code> 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤</li>
+<li><code>9397618</code> MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py</li>
+<li><code>66e7e74</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>ac95b87</code> dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静</li>
+<li><code>3d8252f</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>29adf90</code> daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note</li>
+<li><code>d8ae302</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>4e6ee3c</code> Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay</li>
+<li><code>1c38194</code> Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms</li>
+<li><code>81e3a96</code> Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10</li>
+<li>(+46 条自动快照，略)</li>
+</ul>
+</section>
+<section id="concept-space-sphere-5" class="level3">
+<h3 class="anchored" data-anchor-id="concept-space-sphere-5">Concept-Space-Sphere</h3>
+<ul>
+<li><code>02f508b</code> 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略</li>
+<li><code>bb2cd5b</code> 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)</li>
+<li><code>93fffee</code> 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f</li>
+<li><code>9111ef0</code> 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留</li>
+</ul>
+</section>
+<section id="graphia-7" class="level3">
+<h3 class="anchored" data-anchor-id="graphia-7">GRAPHIA</h3>
+<ul>
+<li><code>3cb93a9</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>e14611a</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>d7b2052</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>6036e95</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>63e252d</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>25364a0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a13b0b5</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>22215d1</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-apple-ms-to-do-并集-7" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-apple-ms-to-do-并集-7">今日批复 (Apple ☑ + MS To Do ☑ 并集)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS 每日memo ☑MS 🧪 通路自证 Mac→Exchange→To Do (Lola ☑MS 此刻应已现身您手机) ☑MS 你好lola ☑MS 回复：你好主人 — 双向桥检收 ✔ (iCloud晨圈+ToDo镜像 ☑MS 勾即批复)</p>
+</section>
+<section id="kaggle-矩阵近况-8" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle-矩阵近况-8">Kaggle 矩阵近况</h2>
+<p>12:34:13 qwen15 ERROR (见 2) 12:34:19 qwen3 ERROR (见 2) 12:34:23 qwen7 ERROR (见 2) 12:34:28 llama1 ERROR (见 2) 12:34:28 loop: running=0 done=4 12:34:28 ALL 4 BASES SETTLED</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+</section>
+<section id="园区日报-2026-09-19-夜巡-9" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-19-夜巡-9">园区日报 2026-09-19 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia-9" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia-9">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora-9" class="level3">
+<h3 class="anchored" data-anchor-id="chora-9">chora</h3>
+<ul>
+<li><code>1a619f8</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>1989430</code> 第三屏正式通车: daily_note.py 定稿 (sanitize: 反斜翻倍/摘直引/弯引归正三段政策, 多行 repeat 删除重建) + 夜巡挂钩绝对路径 — 一稿三面定式闭环: 提醒=批复, 邮件=读物, 备忘录=回看; 两役学费 (一行式 repeat 与引号丛林) 皆化为码内注释</li>
+<li><code>8739063</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>7923353</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>f0e5c5b</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>b2a9b9b</code> 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录</li>
+<li><code>e2bad24</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>db4d3a4</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>854fb2e</code> H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)</li>
+<li><code>ce92b67</code> 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册</li>
+<li><code>da506ac</code> xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)</li>
+<li><code>156d106</code> M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)</li>
+<li><code>d477c14</code> M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁</li>
+<li><code>351d962</code> 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)</li>
+<li><code>64233f0</code> atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病</li>
+<li><code>983bb7d</code> xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第</li>
+<li><code>fcd4953</code> Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名</li>
+<li><code>6c58ba7</code> Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天</li>
+<li><code>d901575</code> atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)</li>
+<li><code>17b821f</code> Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上</li>
+<li><code>ad94393</code> torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新</li>
+<li><code>2fa9f95</code> 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤</li>
+<li><code>9397618</code> MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py</li>
+<li><code>66e7e74</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>ac95b87</code> dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静</li>
+<li><code>3d8252f</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>29adf90</code> daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note</li>
+<li><code>d8ae302</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>4e6ee3c</code> Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay</li>
+<li><code>1c38194</code> Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms</li>
+<li><code>81e3a96</code> Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10</li>
+<li>(+46 条自动快照，略)</li>
+</ul>
+</section>
+<section id="concept-space-sphere-6" class="level3">
+<h3 class="anchored" data-anchor-id="concept-space-sphere-6">Concept-Space-Sphere</h3>
+<ul>
+<li><code>02f508b</code> 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略</li>
+<li><code>bb2cd5b</code> 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)</li>
+<li><code>93fffee</code> 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f</li>
+<li><code>9111ef0</code> 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留</li>
+</ul>
+</section>
+<section id="graphia-8" class="level3">
+<h3 class="anchored" data-anchor-id="graphia-8">GRAPHIA</h3>
+<ul>
+<li><code>a73848a</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>3cb93a9</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>e14611a</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>d7b2052</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>6036e95</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>63e252d</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>25364a0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a13b0b5</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>22215d1</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-apple-ms-to-do-并集-8" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-apple-ms-to-do-并集-8">今日批复 (Apple ☑ + MS To Do ☑ 并集)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS 每日memo ☑MS 🧪 通路自证 Mac→Exchange→To Do (Lola ☑MS 此刻应已现身您手机) ☑MS 你好lola ☑MS 回复：你好主人 — 双向桥检收 ✔ (iCloud晨圈+ToDo镜像 ☑MS 勾即批复)</p>
+</section>
+<section id="kaggle-矩阵近况-9" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle-矩阵近况-9">Kaggle 矩阵近况</h2>
+<p>pushed llama1 pushed llama1 pushed llama1 pushed llama1 pushed llama1 pushed llama1</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+</section>
+<section id="园区日报-2026-09-19-夜巡-10" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-19-夜巡-10">园区日报 2026-09-19 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia-10" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia-10">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora-10" class="level3">
+<h3 class="anchored" data-anchor-id="chora-10">chora</h3>
+<ul>
+<li><code>50128ba</code> 展示机版式定稿: 分节缓冲再组装 (动作→批复→战线→页脚), 噪声过滤 (mail/快照/digest 计数不列), 战线去重且滤 pushed 流水, 每园亮点≤6; 哨兵重启教训入注 (换队列必先清哨, 双开即重推 —— llama1 六连推为证)</li>
+<li><code>935012c</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>1a619f8</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>1989430</code> 第三屏正式通车: daily_note.py 定稿 (sanitize: 反斜翻倍/摘直引/弯引归正三段政策, 多行 repeat 删除重建) + 夜巡挂钩绝对路径 — 一稿三面定式闭环: 提醒=批复, 邮件=读物, 备忘录=回看; 两役学费 (一行式 repeat 与引号丛林) 皆化为码内注释</li>
+<li><code>8739063</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>7923353</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>f0e5c5b</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>b2a9b9b</code> 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录</li>
+<li><code>e2bad24</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>db4d3a4</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>854fb2e</code> H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)</li>
+<li><code>ce92b67</code> 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册</li>
+<li><code>da506ac</code> xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)</li>
+<li><code>156d106</code> M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)</li>
+<li><code>d477c14</code> M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁</li>
+<li><code>351d962</code> 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)</li>
+<li><code>64233f0</code> atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病</li>
+<li><code>983bb7d</code> xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第</li>
+<li><code>fcd4953</code> Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名</li>
+<li><code>6c58ba7</code> Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天</li>
+<li><code>d901575</code> atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)</li>
+<li><code>17b821f</code> Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上</li>
+<li><code>ad94393</code> torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新</li>
+<li><code>2fa9f95</code> 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤</li>
+<li><code>9397618</code> MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py</li>
+<li><code>66e7e74</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>ac95b87</code> dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静</li>
+<li><code>3d8252f</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>29adf90</code> daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note</li>
+<li><code>d8ae302</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>4e6ee3c</code> Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay</li>
+<li><code>1c38194</code> Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms</li>
+<li><code>81e3a96</code> Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10</li>
+<li>(+46 条自动快照，略)</li>
+</ul>
+</section>
+<section id="concept-space-sphere-7" class="level3">
+<h3 class="anchored" data-anchor-id="concept-space-sphere-7">Concept-Space-Sphere</h3>
+<ul>
+<li><code>02f508b</code> 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略</li>
+<li><code>bb2cd5b</code> 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)</li>
+<li><code>93fffee</code> 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f</li>
+<li><code>9111ef0</code> 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留</li>
+</ul>
+</section>
+<section id="graphia-9" class="level3">
+<h3 class="anchored" data-anchor-id="graphia-9">GRAPHIA</h3>
+<ul>
+<li><code>8c0c496</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a73848a</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>3cb93a9</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>e14611a</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>d7b2052</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>6036e95</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>63e252d</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>25364a0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a13b0b5</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>22215d1</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-apple-ms-to-do-并集-9" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-apple-ms-to-do-并集-9">今日批复 (Apple ☑ + MS To Do ☑ 并集)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS 每日memo ☑MS 🧪 通路自证 Mac→Exchange→To Do (Lola ☑MS 此刻应已现身您手机) ☑MS 你好lola ☑MS 回复：你好主人 — 双向桥检收 ✔ (iCloud晨圈+ToDo镜像 ☑MS 勾即批复)</p>
+</section>
+<section id="kaggle-矩阵近况-10" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle-矩阵近况-10">Kaggle 矩阵近况</h2>
+<p>pushed llama1 pushed llama1 pushed llama1 pushed qwen7 15:32:18 ALL DONE pushed xdom</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+</section>
+<section id="园区日报-2026-09-19-夜巡-11" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-19-夜巡-11">园区日报 2026-09-19 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia-11" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia-11">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora-11" class="level3">
+<h3 class="anchored" data-anchor-id="chora-11">chora</h3>
+<ul>
+<li><code>8befb34</code> 晨昏双巡认新名: 提醒列表与 To Do 专单皆 Concept-Space (EAS 建单成功, 镜像不再混入主人「任务」私单); todo_graph 遗案同名对齐</li>
+<li><code>1242ad6</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>50128ba</code> 展示机版式定稿: 分节缓冲再组装 (动作→批复→战线→页脚), 噪声过滤 (mail/快照/digest 计数不列), 战线去重且滤 pushed 流水, 每园亮点≤6; 哨兵重启教训入注 (换队列必先清哨, 双开即重推 —— llama1 六连推为证)</li>
+<li><code>935012c</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>1a619f8</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>1989430</code> 第三屏正式通车: daily_note.py 定稿 (sanitize: 反斜翻倍/摘直引/弯引归正三段政策, 多行 repeat 删除重建) + 夜巡挂钩绝对路径 — 一稿三面定式闭环: 提醒=批复, 邮件=读物, 备忘录=回看; 两役学费 (一行式 repeat 与引号丛林) 皆化为码内注释</li>
+<li><code>8739063</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>7923353</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>f0e5c5b</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>b2a9b9b</code> 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录</li>
+<li><code>e2bad24</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>db4d3a4</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>854fb2e</code> H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)</li>
+<li><code>ce92b67</code> 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册</li>
+<li><code>da506ac</code> xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)</li>
+<li><code>156d106</code> M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)</li>
+<li><code>d477c14</code> M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁</li>
+<li><code>351d962</code> 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)</li>
+<li><code>64233f0</code> atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病</li>
+<li><code>983bb7d</code> xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第</li>
+<li><code>fcd4953</code> Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名</li>
+<li><code>6c58ba7</code> Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天</li>
+<li><code>d901575</code> atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)</li>
+<li><code>17b821f</code> Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上</li>
+<li><code>ad94393</code> torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新</li>
+<li><code>2fa9f95</code> 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤</li>
+<li><code>9397618</code> MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py</li>
+<li><code>66e7e74</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>ac95b87</code> dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静</li>
+<li><code>3d8252f</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>29adf90</code> daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note</li>
+<li><code>d8ae302</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>4e6ee3c</code> Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay</li>
+<li><code>1c38194</code> Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms</li>
+<li><code>81e3a96</code> Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10</li>
+<li>(+46 条自动快照，略)</li>
+</ul>
+</section>
+<section id="concept-space-sphere-8" class="level3">
+<h3 class="anchored" data-anchor-id="concept-space-sphere-8">Concept-Space-Sphere</h3>
+<ul>
+<li><code>34ed8d6</code> 三屏一统: 提醒列表更名 Concept-Space (原 园区·GRAPHIA, 条目随迁), AGENTS 名录同步; remind.sh 认新名 + To Do 冒烟</li>
+<li><code>02f508b</code> 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略</li>
+<li><code>bb2cd5b</code> 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)</li>
+<li><code>93fffee</code> 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f</li>
+<li><code>9111ef0</code> 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留</li>
+</ul>
+</section>
+<section id="graphia-10" class="level3">
+<h3 class="anchored" data-anchor-id="graphia-10">GRAPHIA</h3>
+<ul>
+<li><code>4562b48</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>8c0c496</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a73848a</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>3cb93a9</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>e14611a</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>d7b2052</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>6036e95</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>63e252d</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>25364a0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a13b0b5</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>22215d1</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-apple-ms-to-do-并集-10" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-apple-ms-to-do-并集-10">今日批复 (Apple ☑ + MS To Do ☑ 并集)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS</p>
+</section>
+<section id="kaggle-矩阵近况-11" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle-矩阵近况-11">Kaggle 矩阵近况</h2>
+<p>pushed atlas pushed atlas pushed atlas pushed atlas pushed atlas pushed atlas</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+</section>
+<section id="园区日报-2026-09-19-夜巡-12" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-19-夜巡-12">园区日报 2026-09-19 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia-12" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia-12">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora-12" class="level3">
+<h3 class="anchored" data-anchor-id="chora-12">chora</h3>
+<ul>
+<li><code>085332a</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>8befb34</code> 晨昏双巡认新名: 提醒列表与 To Do 专单皆 Concept-Space (EAS 建单成功, 镜像不再混入主人「任务」私单); todo_graph 遗案同名对齐</li>
+<li><code>1242ad6</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>50128ba</code> 展示机版式定稿: 分节缓冲再组装 (动作→批复→战线→页脚), 噪声过滤 (mail/快照/digest 计数不列), 战线去重且滤 pushed 流水, 每园亮点≤6; 哨兵重启教训入注 (换队列必先清哨, 双开即重推 —— llama1 六连推为证)</li>
+<li><code>935012c</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>1a619f8</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>1989430</code> 第三屏正式通车: daily_note.py 定稿 (sanitize: 反斜翻倍/摘直引/弯引归正三段政策, 多行 repeat 删除重建) + 夜巡挂钩绝对路径 — 一稿三面定式闭环: 提醒=批复, 邮件=读物, 备忘录=回看; 两役学费 (一行式 repeat 与引号丛林) 皆化为码内注释</li>
+<li><code>8739063</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>7923353</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>f0e5c5b</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>b2a9b9b</code> 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录</li>
+<li><code>e2bad24</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>db4d3a4</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>854fb2e</code> H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)</li>
+<li><code>ce92b67</code> 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册</li>
+<li><code>da506ac</code> xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)</li>
+<li><code>156d106</code> M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)</li>
+<li><code>d477c14</code> M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁</li>
+<li><code>351d962</code> 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)</li>
+<li><code>64233f0</code> atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病</li>
+<li><code>983bb7d</code> xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第</li>
+<li><code>fcd4953</code> Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名</li>
+<li><code>6c58ba7</code> Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天</li>
+<li><code>d901575</code> atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)</li>
+<li><code>17b821f</code> Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上</li>
+<li><code>ad94393</code> torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新</li>
+<li><code>2fa9f95</code> 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤</li>
+<li><code>9397618</code> MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py</li>
+<li><code>66e7e74</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>ac95b87</code> dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静</li>
+<li><code>3d8252f</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>29adf90</code> daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note</li>
+<li><code>d8ae302</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>4e6ee3c</code> Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay</li>
+<li><code>1c38194</code> Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms</li>
+<li><code>81e3a96</code> Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10</li>
+<li>(+46 条自动快照，略)</li>
+</ul>
+</section>
+<section id="concept-space-sphere-9" class="level3">
+<h3 class="anchored" data-anchor-id="concept-space-sphere-9">Concept-Space-Sphere</h3>
+<ul>
+<li><code>34ed8d6</code> 三屏一统: 提醒列表更名 Concept-Space (原 园区·GRAPHIA, 条目随迁), AGENTS 名录同步; remind.sh 认新名 + To Do 冒烟</li>
+<li><code>02f508b</code> 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略</li>
+<li><code>bb2cd5b</code> 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)</li>
+<li><code>93fffee</code> 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f</li>
+<li><code>9111ef0</code> 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留</li>
+</ul>
+</section>
+<section id="graphia-11" class="level3">
+<h3 class="anchored" data-anchor-id="graphia-11">GRAPHIA</h3>
+<ul>
+<li><code>c0583c0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>4562b48</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>8c0c496</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a73848a</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>3cb93a9</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>e14611a</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>d7b2052</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>6036e95</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>63e252d</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>25364a0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a13b0b5</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>22215d1</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-apple-ms-to-do-并集-11" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-apple-ms-to-do-并集-11">今日批复 (Apple ☑ + MS To Do ☑ 并集)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS</p>
+</section>
+<section id="kaggle-矩阵近况-12" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle-矩阵近况-12">Kaggle 矩阵近况</h2>
+<p>pushed atlas pushed atlas pushed atlas pushed atlas pushed atlas pushed atlas</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+</section>
+<section id="园区日报-2026-09-19-夜巡-13" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-19-夜巡-13">园区日报 2026-09-19 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia-13" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia-13">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora-13" class="level3">
+<h3 class="anchored" data-anchor-id="chora-13">chora</h3>
+<ul>
+<li><code>ad4edbc</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>085332a</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>8befb34</code> 晨昏双巡认新名: 提醒列表与 To Do 专单皆 Concept-Space (EAS 建单成功, 镜像不再混入主人「任务」私单); todo_graph 遗案同名对齐</li>
+<li><code>1242ad6</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>50128ba</code> 展示机版式定稿: 分节缓冲再组装 (动作→批复→战线→页脚), 噪声过滤 (mail/快照/digest 计数不列), 战线去重且滤 pushed 流水, 每园亮点≤6; 哨兵重启教训入注 (换队列必先清哨, 双开即重推 —— llama1 六连推为证)</li>
+<li><code>935012c</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>1a619f8</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>1989430</code> 第三屏正式通车: daily_note.py 定稿 (sanitize: 反斜翻倍/摘直引/弯引归正三段政策, 多行 repeat 删除重建) + 夜巡挂钩绝对路径 — 一稿三面定式闭环: 提醒=批复, 邮件=读物, 备忘录=回看; 两役学费 (一行式 repeat 与引号丛林) 皆化为码内注释</li>
+<li><code>8739063</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>7923353</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>f0e5c5b</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>b2a9b9b</code> 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录</li>
+<li><code>e2bad24</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>db4d3a4</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>854fb2e</code> H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)</li>
+<li><code>ce92b67</code> 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册</li>
+<li><code>da506ac</code> xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)</li>
+<li><code>156d106</code> M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)</li>
+<li><code>d477c14</code> M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁</li>
+<li><code>351d962</code> 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)</li>
+<li><code>64233f0</code> atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病</li>
+<li><code>983bb7d</code> xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第</li>
+<li><code>fcd4953</code> Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名</li>
+<li><code>6c58ba7</code> Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天</li>
+<li><code>d901575</code> atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)</li>
+<li><code>17b821f</code> Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上</li>
+<li><code>ad94393</code> torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新</li>
+<li><code>2fa9f95</code> 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤</li>
+<li><code>9397618</code> MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py</li>
+<li><code>66e7e74</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>ac95b87</code> dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静</li>
+<li><code>3d8252f</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>29adf90</code> daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note</li>
+<li><code>d8ae302</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>4e6ee3c</code> Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay</li>
+<li><code>1c38194</code> Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms</li>
+<li><code>81e3a96</code> Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10</li>
+<li>(+46 条自动快照，略)</li>
+</ul>
+</section>
+<section id="concept-space-sphere-10" class="level3">
+<h3 class="anchored" data-anchor-id="concept-space-sphere-10">Concept-Space-Sphere</h3>
+<ul>
+<li><code>34ed8d6</code> 三屏一统: 提醒列表更名 Concept-Space (原 园区·GRAPHIA, 条目随迁), AGENTS 名录同步; remind.sh 认新名 + To Do 冒烟</li>
+<li><code>02f508b</code> 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略</li>
+<li><code>bb2cd5b</code> 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)</li>
+<li><code>93fffee</code> 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f</li>
+<li><code>9111ef0</code> 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留</li>
+</ul>
+</section>
+<section id="graphia-12" class="level3">
+<h3 class="anchored" data-anchor-id="graphia-12">GRAPHIA</h3>
+<ul>
+<li><code>fe4d42f</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>c0583c0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>4562b48</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>8c0c496</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a73848a</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>3cb93a9</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>e14611a</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>d7b2052</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>6036e95</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>63e252d</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>25364a0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a13b0b5</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>22215d1</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-apple-ms-to-do-并集-12" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-apple-ms-to-do-并集-12">今日批复 (Apple ☑ + MS To Do ☑ 并集)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS</p>
+</section>
+<section id="kaggle-矩阵近况-13" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle-矩阵近况-13">Kaggle 矩阵近况</h2>
+<p>pushed atlas pushed atlas pushed atlas pushed atlas pushed atlas pushed atlas</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+</section>
+<section id="园区日报-2026-09-19-夜巡-14" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-19-夜巡-14">园区日报 2026-09-19 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia-14" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia-14">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora-14" class="level3">
+<h3 class="anchored" data-anchor-id="chora-14">chora</h3>
+<ul>
+<li><code>1cd444c</code> 第四屏通车 OneNote: Cora 应用 (consumers 个人护照, device-code 一贴即通) → onenote_graph.py + daily_onenote.py 装裱 HTML 落「Concept-Space」分区; 覆帖律=一日一页 (同名先删); 沿途四虫连拔</li>
+<li><code>dfba5f3</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>ad4edbc</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>085332a</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>8befb34</code> 晨昏双巡认新名: 提醒列表与 To Do 专单皆 Concept-Space (EAS 建单成功, 镜像不再混入主人「任务」私单); todo_graph 遗案同名对齐</li>
+<li><code>1242ad6</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>50128ba</code> 展示机版式定稿: 分节缓冲再组装 (动作→批复→战线→页脚), 噪声过滤 (mail/快照/digest 计数不列), 战线去重且滤 pushed 流水, 每园亮点≤6; 哨兵重启教训入注 (换队列必先清哨, 双开即重推 —— llama1 六连推为证)</li>
+<li><code>935012c</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>1a619f8</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>1989430</code> 第三屏正式通车: daily_note.py 定稿 (sanitize: 反斜翻倍/摘直引/弯引归正三段政策, 多行 repeat 删除重建) + 夜巡挂钩绝对路径 — 一稿三面定式闭环: 提醒=批复, 邮件=读物, 备忘录=回看; 两役学费 (一行式 repeat 与引号丛林) 皆化为码内注释</li>
+<li><code>8739063</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>7923353</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>f0e5c5b</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>b2a9b9b</code> 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录</li>
+<li><code>e2bad24</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>db4d3a4</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>854fb2e</code> H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)</li>
+<li><code>ce92b67</code> 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册</li>
+<li><code>da506ac</code> xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)</li>
+<li><code>156d106</code> M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)</li>
+<li><code>d477c14</code> M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁</li>
+<li><code>351d962</code> 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)</li>
+<li><code>64233f0</code> atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病</li>
+<li><code>983bb7d</code> xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第</li>
+<li><code>fcd4953</code> Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名</li>
+<li><code>6c58ba7</code> Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天</li>
+<li><code>d901575</code> atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)</li>
+<li><code>17b821f</code> Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上</li>
+<li><code>ad94393</code> torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新</li>
+<li><code>2fa9f95</code> 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤</li>
+<li><code>9397618</code> MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py</li>
+<li><code>66e7e74</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>ac95b87</code> dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静</li>
+<li><code>3d8252f</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>29adf90</code> daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note</li>
+<li><code>d8ae302</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>4e6ee3c</code> Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay</li>
+<li><code>1c38194</code> Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms</li>
+<li><code>81e3a96</code> Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10</li>
+<li>(+46 条自动快照，略)</li>
+</ul>
+</section>
+<section id="concept-space-sphere-11" class="level3">
+<h3 class="anchored" data-anchor-id="concept-space-sphere-11">Concept-Space-Sphere</h3>
+<ul>
+<li><code>34ed8d6</code> 三屏一统: 提醒列表更名 Concept-Space (原 园区·GRAPHIA, 条目随迁), AGENTS 名录同步; remind.sh 认新名 + To Do 冒烟</li>
+<li><code>02f508b</code> 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略</li>
+<li><code>bb2cd5b</code> 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)</li>
+<li><code>93fffee</code> 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f</li>
+<li><code>9111ef0</code> 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留</li>
+</ul>
+</section>
+<section id="graphia-13" class="level3">
+<h3 class="anchored" data-anchor-id="graphia-13">GRAPHIA</h3>
+<ul>
+<li><code>2684c18</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>fe4d42f</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>c0583c0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>4562b48</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>8c0c496</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a73848a</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>3cb93a9</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>e14611a</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>d7b2052</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>6036e95</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>63e252d</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>25364a0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a13b0b5</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>22215d1</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-apple-ms-to-do-并集-13" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-apple-ms-to-do-并集-13">今日批复 (Apple ☑ + MS To Do ☑ 并集)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS</p>
+</section>
+<section id="kaggle-矩阵近况-14" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle-矩阵近况-14">Kaggle 矩阵近况</h2>
+<p>pushed atlas pushed atlas pushed atlas pushed atlas pushed atlas pushed atlas</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+</section>
+<section id="园区日报-2026-09-19-夜巡-15" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-19-夜巡-15">园区日报 2026-09-19 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia-15" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia-15">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora-15" class="level3">
+<h3 class="anchored" data-anchor-id="chora-15">chora</h3>
+<ul>
+<li><code>d194ef3</code> Redux-multiagent 总图入册: 多智能体宪法图 — 三物种各安其位 (流水线/工人宿舍/状态本体+selector), 站岗四法上图 (W</li>
+<li><code>3732313</code> 全生命周期总图入册 (mermaid): 一票入门 guard · 两路工马本地/Kaggle · 三问 clarify↔︎☑ · 四账 persist/rehydrate · 四屏</li>
+<li><code>2f47d76</code> ORCHESTRA README 框架志合并: 解剖图/插座表/上下文铁律/加件规矩入册 (与 PoC 志一篇两节), 测试残票清出</li>
+<li><code>6afaf7b</code> ORCHESTRA 框架骨架 v0.2 立起 (主人三问三答落地): 解剖图正物种 (middleware=流水线/enhancer=store 超能力/selector=唯一读�</li>
+<li><code>34aafeb</code> 夜核自包含化补完: kaggle 只送 code file —— atlas/xdom 的 embed 内联到底 (atlas 更重铸净版: intra 中位/inter 抽样 400 对</li>
+<li><code>02cc2df</code> URL 卫生层: Graph 查询与 ?title= 全量 percent-encode (空格裸奔之灾一日两现, 一处根治) — 覆帖律首验: 一日一页达成</li>
+<li><code>ba38ed4</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>1cd444c</code> 第四屏通车 OneNote: Cora 应用 (consumers 个人护照, device-code 一贴即通) → onenote_graph.py + daily_onenote.py 装裱 HTML 落「Co</li>
+<li><code>dfba5f3</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>ad4edbc</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>085332a</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>8befb34</code> 晨昏双巡认新名: 提醒列表与 To Do 专单皆 Concept-Space (EAS 建单成功, 镜像不再混入主人「任务」私单); todo_graph 遗�</li>
+<li><code>1242ad6</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>50128ba</code> 展示机版式定稿: 分节缓冲再组装 (动作→批复→战线→页脚), 噪声过滤 (mail/快照/digest 计数不列), 战线去重且滤</li>
+<li><code>935012c</code> mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>1a619f8</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>1989430</code> 第三屏正式通车: daily_note.py 定稿 (sanitize: 反斜翻倍/摘直引/弯引归正三段政策, 多行 repeat 删除重建) + 夜巡挂钩�</li>
+<li><code>8739063</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>7923353</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>f0e5c5b</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>b2a9b9b</code> 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿</li>
+<li><code>e2bad24</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>db4d3a4</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>854fb2e</code> H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰�</li>
+<li><code>ce92b67</code> 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册</li>
+<li><code>da506ac</code> xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而�</li>
+<li><code>156d106</code> M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)</li>
+<li><code>d477c14</code> M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁</li>
+<li><code>351d962</code> 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)</li>
+<li><code>64233f0</code> atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1</li>
+<li><code>983bb7d</code> xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/hold</li>
+<li><code>fcd4953</code> Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名</li>
+<li><code>6c58ba7</code> Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆</li>
+<li><code>d901575</code> atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)</li>
+<li><code>17b821f</code> Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验</li>
+<li><code>ad94393</code> torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容�</li>
+<li><code>2fa9f95</code> 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, q</li>
+<li><code>9397618</code> MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权�</li>
+<li><code>66e7e74</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>ac95b87</code> dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·</li>
+<li><code>3d8252f</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>29adf90</code> daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 c</li>
+<li><code>d8ae302</code> mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)</li>
+<li><code>4e6ee3c</code> Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/repla</li>
+<li><code>1c38194</code> Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms</li>
+<li><code>81e3a96</code> Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done a</li>
+<li>(+46 条自动快照，略)</li>
+</ul>
+</section>
+<section id="concept-space-sphere-12" class="level3">
+<h3 class="anchored" data-anchor-id="concept-space-sphere-12">Concept-Space-Sphere</h3>
+<ul>
+<li><code>acbbb72</code> xdom 考卷原件入册 (0935d630…) + 归档账刷新</li>
+<li><code>34ed8d6</code> 三屏一统: 提醒列表更名 Concept-Space (原 园区·GRAPHIA, 条目随迁), AGENTS 名录同步; remind.sh 认新名 + To Do 冒烟</li>
+<li><code>02f508b</code> 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出�</li>
+<li><code>bb2cd5b</code> 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律</li>
+<li><code>93fffee</code> 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f</li>
+<li><code>9111ef0</code> 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入</li>
+</ul>
+</section>
+<section id="graphia-14" class="level3">
+<h3 class="anchored" data-anchor-id="graphia-14">GRAPHIA</h3>
+<ul>
+<li><code>b5470d8</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>2684c18</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>fe4d42f</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>c0583c0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>4562b48</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>8c0c496</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a73848a</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>3cb93a9</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>e14611a</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>d7b2052</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>6036e95</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>63e252d</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>25364a0</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>a13b0b5</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+<li><code>22215d1</code> daily digest 2026-09-19 (evening patrol, machine-written)</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-apple-ms-to-do-并集-14" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-apple-ms-to-do-并集-14">今日批复 (Apple ☑ + MS To Do ☑ 并集)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS</p>
+</section>
+<section id="kaggle-矩阵近况-15" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle-矩阵近况-15">Kaggle 矩阵近况</h2>
+<p>20:28:26 qwen15 denied(2) 宽限 20:28:28 qwen3 denied(2) 宽限 20:28:30 atlas denied(2) 宽限 20:28:31 xdom denied(2) 宽限 20:28:33 qwen7 denied(2) 宽限 20:28:34 llama1 denied(2) 宽限</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+</section>
+<section id="园区日报-2026-09-20-夜巡" class="level2">
+<h2 class="anchored" data-anchor-id="园区日报-2026-09-20-夜巡">园区日报 2026-09-20 · 夜巡</h2>
+</section>
+<section id="今日-commits-chora-lethe-graphia-16" class="level2">
+<h2 class="anchored" data-anchor-id="今日-commits-chora-lethe-graphia-16">今日 commits (chora / LETHE / GRAPHIA)</h2>
+<section id="chora-16" class="level3">
+<h3 class="anchored" data-anchor-id="chora-16">chora</h3>
+<ul>
+<li><code>bdfd4ea</code> exp16/16b placeholder 自伤愈合(glob 已活: rows 1780/8383/212), 双弹重射</li>
+<li><code>d8ecba0</code> exp16 glob recursive 一行修重射; exp16b-llama1b 铸成入队尾(pad 保险); pocket 警报首响实录</li>
+<li><code>9f09998</code> exp12 回匣入库(双不对称翻转+夏零对照副产物)</li>
+<li><code>5cce0df</code> exp13b 回匣报告入库; _engine13 train() save_pretrained; atlas v2 真身补铸</li>
+<li><code>0f091cd</code> 羊毛入库: Kaggle Research Grant + MCP 文档 PDF 盖 sha 存档 (artifacts/external)</li>
+<li><code>79a90ad</code> exp13 主报回匣(真弹丸 exp13-mixscan-11-point-gap-test, COMPLETE, 7.6min): 单调无跳变+三角鼓包85°→123°+边缘大摆幅(cos 1.0→</li>
+<li><code>9e89e1f</code> 六匣之五铸齐上链: exp13b 黑白缝/exp12 时间保真/exp14 xdom中心化复考/exp15 港片小三角@3B (引擎共用 _engine13, 园线超�</li>
+<li><code>b752a06</code> Exp13「混合之缝」铸弹: 11 点比例梯度扫描(0.5B 园线超参 seed13, dvec 角曲线+插值偏离量+中心化探针+8 边界句双峰�</li>
+<li><code>c35d1bf</code> kaggle 战地整肃夜半毕：三类病原同治——weld 毒(TextIOWrapper, 四座解毒)/孤模块(xdom+m2 内联)/7B 换 4bit 轻甲；发现 K</li>
+<li><code>0e17527</code> 九月二十 09:15 第二波军械入库: atlas v2 (all-but-the-mean 中心化余弦, 破各向异性地板, 附 centroid/token 双轨碰撞榜与�</li>
+<li><code>aa7ccca</code> 晨报加哨位: redux-saga RFC #2784 评论数/状态每日随报 (外界有回音第一时间知道)</li>
+</ul>
+</section>
+<section id="concept-space-sphere-13" class="level3">
+<h3 class="anchored" data-anchor-id="concept-space-sphere-13">Concept-Space-Sphere</h3>
+<ul>
+<li><code>3341614</code> 园门添径: cora-atlas → 软链至 ../cora-atlas（同 CHORA 工作区 benches 手法的园区版——门是路径, 不是第二份房子; 链�</li>
+</ul>
+</section>
+</section>
+<section id="今日批复-apple-ms-to-do-并集-15" class="level2">
+<h2 class="anchored" data-anchor-id="今日批复-apple-ms-to-do-并集-15">今日批复 (Apple ☑ + MS To Do ☑ 并集)</h2>
+<p>• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复🧪 更名后冒烟: 三屏同名 Concept-Space☀️ 晨圈 09-20：勾掉=点菜/批复 ☑MS 🧪 To Do 专单冒烟 (EAS→服务器→iPhone To Do)</p>
+</section>
+<section id="外界哨位" class="level2">
+<h2 class="anchored" data-anchor-id="外界哨位">外界哨位</h2>
+<p>· redux-saga RFC #2784 → 评论 0 | 状态 open ## Kaggle 矩阵近况 15:14:50 bw ERROR 尸检归档 15:14:53 t12 ERROR 尸检归档 15:14:56 x2 ERROR 尸检归档 15:14:58 tri ERROR 尸检归档 19:11:53 ord ERROR 尸检归档; ping_pocket 夜哨告警: ord ERROR 19:22:46 ord2 ERROR 尸检归档; ping_pocket 夜哨告警: ord2 ERROR</p>
+<p><em>dispatched by bin/daily-report.sh · 回执请 reply</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

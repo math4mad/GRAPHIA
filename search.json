@@ -1,5 +1,474 @@
 [
   {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\n3dc62ea status snapshot (auto: publish-status)\nd8660a7 status snapshot (auto: publish-status)\n620769a status snapshot (auto: publish-status)\n48535c1 status snapshot (auto: publish-status)\n870b681 status snapshot (auto: publish-status)\nd6a8342 status snapshot (auto: publish-status)\n04b8291 status snapshot (auto: publish-status)\n849155d status snapshot (auto: publish-status)\n8215f06 status snapshot (auto: publish-status)\nabfe797 status snapshot (auto: publish-status)\n549c21a status snapshot (auto: publish-status)\n4e6ee3c Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay\nfe43a14 status snapshot (auto: publish-status)\ne3de52b status snapshot (auto: publish-status)\naa4ce06 status snapshot (auto: publish-status)\n1c38194 Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms\n8fb100a status snapshot (auto: publish-status)\n292431b status snapshot (auto: publish-status)\n943c42f status snapshot (auto: publish-status)\n81e3a96 Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10\nb045786 status snapshot (auto: publish-status)\n94eb271 status snapshot (auto: publish-status)\nb929fca status snapshot (auto: publish-status)\nd457f23 status snapshot (auto: publish-status)\n25466c5 status snapshot (auto: publish-status)\nfb78207 status snapshot (auto: publish-status)\n4277e19 status snapshot (auto: publish-status)\n61570be status snapshot (auto: publish-status)\n7b192b4 status snapshot (auto: publish-status)\nd3a5421 status snapshot (auto: publish-status)"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-提醒事项",
+    "href": "notes/daily-log.html#今日批复-提醒事项",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (提醒事项 ☑)",
+    "text": "今日批复 (提醒事项 ☑)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条"
+  },
+  {
+    "objectID": "notes/daily-log.html#kaggle-矩阵近况",
+    "href": "notes/daily-log.html#kaggle-矩阵近况",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "Kaggle 矩阵近况",
+    "text": "Kaggle 矩阵近况\n10:24:27 push qwen15 → Your kernel title does not resolve to the specified id. This 10:24:31 push qwen3 → Your kernel title does not resolve to the specified id. This 10:24:34 loop: running=2 done=0 10:34:38 push qwen15 → Your kernel title does not resolve to the specified id. This 10:34:42 push qwen3 → Your kernel title does not resolve to the specified id. This 10:34:45 loop: running=2 done=0\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
+    "objectID": "notes/daily-log.html#园区日报-2026-09-19-夜巡-1",
+    "href": "notes/daily-log.html#园区日报-2026-09-19-夜巡-1",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "园区日报 2026-09-19 · 夜巡",
+    "text": "园区日报 2026-09-19 · 夜巡"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia-1",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia-1",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\n29adf90 daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note\nd8ae302 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n4e6ee3c Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay\n1c38194 Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms\n81e3a96 Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10\n(+29 条自动快照，略)\n\n\n\nGRAPHIA\n\n22215d1 daily digest 2026-09-19 (evening patrol, machine-written)"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-apple-ms-to-do-并集",
+    "href": "notes/daily-log.html#今日批复-apple-ms-to-do-并集",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (Apple ☑ + MS To Do ☑ 并集)",
+    "text": "今日批复 (Apple ☑ + MS To Do ☑ 并集)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复"
+  },
+  {
+    "objectID": "notes/daily-log.html#kaggle-矩阵近况-1",
+    "href": "notes/daily-log.html#kaggle-矩阵近况-1",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "Kaggle 矩阵近况",
+    "text": "Kaggle 矩阵近况\n10:34:38 push qwen15 → Your kernel title does not resolve to the specified id. This 10:34:42 push qwen3 → Your kernel title does not resolve to the specified id. This 10:34:45 loop: running=2 done=0 10:44:48 push qwen15 → Your kernel title does not resolve to the specified id. This 10:44:54 push qwen3 → Your kernel title does not resolve to the specified id. This 10:44:57 loop: running=2 done=0\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
+    "objectID": "notes/daily-log.html#园区日报-2026-09-19-夜巡-2",
+    "href": "notes/daily-log.html#园区日报-2026-09-19-夜巡-2",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "园区日报 2026-09-19 · 夜巡",
+    "text": "园区日报 2026-09-19 · 夜巡"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia-2",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia-2",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\nac95b87 dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静\n3d8252f mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n29adf90 daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note\nd8ae302 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n4e6ee3c Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay\n1c38194 Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms\n81e3a96 Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10\n(+29 条自动快照，略)\n\n\n\nGRAPHIA\n\na13b0b5 daily digest 2026-09-19 (evening patrol, machine-written)\n22215d1 daily digest 2026-09-19 (evening patrol, machine-written)"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-1",
+    "href": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-1",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (Apple ☑ + MS To Do ☑ 并集)",
+    "text": "今日批复 (Apple ☑ + MS To Do ☑ 并集)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复"
+  },
+  {
+    "objectID": "notes/daily-log.html#kaggle-矩阵近况-2",
+    "href": "notes/daily-log.html#kaggle-矩阵近况-2",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "Kaggle 矩阵近况",
+    "text": "Kaggle 矩阵近况\n10:44:54 push qwen3 → Your kernel title does not resolve to the specified id. This 10:44:57 loop: running=2 done=0 10:48:09 push qwen7 → Kernel version 1 successfully pushed. Please check progress 10:48:14 push llama1 → Kernel version 1 successfully pushed. Please check progress 10:48:14 loop: running=2 done=0 10:50:14 qwen15 ERROR (见 0)\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
+    "objectID": "notes/daily-log.html#园区日报-2026-09-19-夜巡-3",
+    "href": "notes/daily-log.html#园区日报-2026-09-19-夜巡-3",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "园区日报 2026-09-19 · 夜巡",
+    "text": "园区日报 2026-09-19 · 夜巡"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia-3",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia-3",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\n854fb2e H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)\nce92b67 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册\nda506ac xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)\n156d106 M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)\nd477c14 M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁\n351d962 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)\n64233f0 atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病\n983bb7d xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第\nfcd4953 Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名\n6c58ba7 Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天\nd901575 atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)\n17b821f Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上\nad94393 torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新\n2fa9f95 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤\n9397618 MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py\n66e7e74 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nac95b87 dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静\n3d8252f mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n29adf90 daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note\nd8ae302 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n4e6ee3c Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay\n1c38194 Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms\n81e3a96 Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10\n(+46 条自动快照，略)\n\n\n\nConcept-Space-Sphere\n\n02f508b 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略\nbb2cd5b 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)\n93fffee 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f\n9111ef0 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留\n\n\n\nGRAPHIA\n\n25364a0 daily digest 2026-09-19 (evening patrol, machine-written)\na13b0b5 daily digest 2026-09-19 (evening patrol, machine-written)\n22215d1 daily digest 2026-09-19 (evening patrol, machine-written)"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-2",
+    "href": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-2",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (Apple ☑ + MS To Do ☑ 并集)",
+    "text": "今日批复 (Apple ☑ + MS To Do ☑ 并集)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS 每日memo ☑MS 🧪 通路自证 Mac→Exchange→To Do (Lola ☑MS 此刻应已现身您手机) ☑MS 你好lola ☑MS 回复：你好主人 — 双向桥检收 ✔ (iCloud晨圈+ToDo镜像 ☑MS 勾即批复)"
+  },
+  {
+    "objectID": "notes/daily-log.html#kaggle-矩阵近况-3",
+    "href": "notes/daily-log.html#kaggle-矩阵近况-3",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "Kaggle 矩阵近况",
+    "text": "Kaggle 矩阵近况\n12:34:13 qwen15 ERROR (见 2) 12:34:19 qwen3 ERROR (见 2) 12:34:23 qwen7 ERROR (见 2) 12:34:28 llama1 ERROR (见 2) 12:34:28 loop: running=0 done=4 12:34:28 ALL 4 BASES SETTLED\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
+    "objectID": "notes/daily-log.html#园区日报-2026-09-19-夜巡-4",
+    "href": "notes/daily-log.html#园区日报-2026-09-19-夜巡-4",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "园区日报 2026-09-19 · 夜巡",
+    "text": "园区日报 2026-09-19 · 夜巡"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia-4",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia-4",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\ndb4d3a4 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n854fb2e H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)\nce92b67 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册\nda506ac xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)\n156d106 M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)\nd477c14 M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁\n351d962 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)\n64233f0 atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病\n983bb7d xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第\nfcd4953 Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名\n6c58ba7 Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天\nd901575 atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)\n17b821f Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上\nad94393 torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新\n2fa9f95 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤\n9397618 MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py\n66e7e74 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nac95b87 dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静\n3d8252f mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n29adf90 daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note\nd8ae302 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n4e6ee3c Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay\n1c38194 Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms\n81e3a96 Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10\n(+46 条自动快照，略)\n\n\n\nConcept-Space-Sphere\n\n02f508b 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略\nbb2cd5b 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)\n93fffee 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f\n9111ef0 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留\n\n\n\nGRAPHIA\n\n63e252d daily digest 2026-09-19 (evening patrol, machine-written)\n25364a0 daily digest 2026-09-19 (evening patrol, machine-written)\na13b0b5 daily digest 2026-09-19 (evening patrol, machine-written)\n22215d1 daily digest 2026-09-19 (evening patrol, machine-written)"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-3",
+    "href": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-3",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (Apple ☑ + MS To Do ☑ 并集)",
+    "text": "今日批复 (Apple ☑ + MS To Do ☑ 并集)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS 每日memo ☑MS 🧪 通路自证 Mac→Exchange→To Do (Lola ☑MS 此刻应已现身您手机) ☑MS 你好lola ☑MS 回复：你好主人 — 双向桥检收 ✔ (iCloud晨圈+ToDo镜像 ☑MS 勾即批复)"
+  },
+  {
+    "objectID": "notes/daily-log.html#kaggle-矩阵近况-4",
+    "href": "notes/daily-log.html#kaggle-矩阵近况-4",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "Kaggle 矩阵近况",
+    "text": "Kaggle 矩阵近况\n12:34:13 qwen15 ERROR (见 2) 12:34:19 qwen3 ERROR (见 2) 12:34:23 qwen7 ERROR (见 2) 12:34:28 llama1 ERROR (见 2) 12:34:28 loop: running=0 done=4 12:34:28 ALL 4 BASES SETTLED\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
+    "objectID": "notes/daily-log.html#园区日报-2026-09-19-夜巡-5",
+    "href": "notes/daily-log.html#园区日报-2026-09-19-夜巡-5",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "园区日报 2026-09-19 · 夜巡",
+    "text": "园区日报 2026-09-19 · 夜巡"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia-5",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia-5",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\nb2a9b9b 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录\ne2bad24 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\ndb4d3a4 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n854fb2e H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)\nce92b67 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册\nda506ac xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)\n156d106 M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)\nd477c14 M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁\n351d962 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)\n64233f0 atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病\n983bb7d xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第\nfcd4953 Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名\n6c58ba7 Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天\nd901575 atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)\n17b821f Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上\nad94393 torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新\n2fa9f95 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤\n9397618 MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py\n66e7e74 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nac95b87 dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静\n3d8252f mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n29adf90 daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note\nd8ae302 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n4e6ee3c Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay\n1c38194 Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms\n81e3a96 Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10\n(+46 条自动快照，略)\n\n\n\nConcept-Space-Sphere\n\n02f508b 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略\nbb2cd5b 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)\n93fffee 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f\n9111ef0 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留\n\n\n\nGRAPHIA\n\n6036e95 daily digest 2026-09-19 (evening patrol, machine-written)\n63e252d daily digest 2026-09-19 (evening patrol, machine-written)\n25364a0 daily digest 2026-09-19 (evening patrol, machine-written)\na13b0b5 daily digest 2026-09-19 (evening patrol, machine-written)\n22215d1 daily digest 2026-09-19 (evening patrol, machine-written)"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-4",
+    "href": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-4",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (Apple ☑ + MS To Do ☑ 并集)",
+    "text": "今日批复 (Apple ☑ + MS To Do ☑ 并集)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS 每日memo ☑MS 🧪 通路自证 Mac→Exchange→To Do (Lola ☑MS 此刻应已现身您手机) ☑MS 你好lola ☑MS 回复：你好主人 — 双向桥检收 ✔ (iCloud晨圈+ToDo镜像 ☑MS 勾即批复)"
+  },
+  {
+    "objectID": "notes/daily-log.html#kaggle-矩阵近况-5",
+    "href": "notes/daily-log.html#kaggle-矩阵近况-5",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "Kaggle 矩阵近况",
+    "text": "Kaggle 矩阵近况\n12:34:13 qwen15 ERROR (见 2) 12:34:19 qwen3 ERROR (见 2) 12:34:23 qwen7 ERROR (见 2) 12:34:28 llama1 ERROR (见 2) 12:34:28 loop: running=0 done=4 12:34:28 ALL 4 BASES SETTLED\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
+    "objectID": "notes/daily-log.html#园区日报-2026-09-19-夜巡-6",
+    "href": "notes/daily-log.html#园区日报-2026-09-19-夜巡-6",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "园区日报 2026-09-19 · 夜巡",
+    "text": "园区日报 2026-09-19 · 夜巡"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia-6",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia-6",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\nf0e5c5b mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nb2a9b9b 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录\ne2bad24 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\ndb4d3a4 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n854fb2e H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)\nce92b67 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册\nda506ac xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)\n156d106 M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)\nd477c14 M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁\n351d962 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)\n64233f0 atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病\n983bb7d xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第\nfcd4953 Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名\n6c58ba7 Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天\nd901575 atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)\n17b821f Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上\nad94393 torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新\n2fa9f95 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤\n9397618 MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py\n66e7e74 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nac95b87 dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静\n3d8252f mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n29adf90 daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note\nd8ae302 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n4e6ee3c Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay\n1c38194 Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms\n81e3a96 Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10\n(+46 条自动快照，略)\n\n\n\nConcept-Space-Sphere\n\n02f508b 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略\nbb2cd5b 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)\n93fffee 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f\n9111ef0 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留\n\n\n\nGRAPHIA\n\nd7b2052 daily digest 2026-09-19 (evening patrol, machine-written)\n6036e95 daily digest 2026-09-19 (evening patrol, machine-written)\n63e252d daily digest 2026-09-19 (evening patrol, machine-written)\n25364a0 daily digest 2026-09-19 (evening patrol, machine-written)\na13b0b5 daily digest 2026-09-19 (evening patrol, machine-written)\n22215d1 daily digest 2026-09-19 (evening patrol, machine-written)"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-5",
+    "href": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-5",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (Apple ☑ + MS To Do ☑ 并集)",
+    "text": "今日批复 (Apple ☑ + MS To Do ☑ 并集)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS 每日memo ☑MS 🧪 通路自证 Mac→Exchange→To Do (Lola ☑MS 此刻应已现身您手机) ☑MS 你好lola ☑MS 回复：你好主人 — 双向桥检收 ✔ (iCloud晨圈+ToDo镜像 ☑MS 勾即批复)"
+  },
+  {
+    "objectID": "notes/daily-log.html#kaggle-矩阵近况-6",
+    "href": "notes/daily-log.html#kaggle-矩阵近况-6",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "Kaggle 矩阵近况",
+    "text": "Kaggle 矩阵近况\n12:34:13 qwen15 ERROR (见 2) 12:34:19 qwen3 ERROR (见 2) 12:34:23 qwen7 ERROR (见 2) 12:34:28 llama1 ERROR (见 2) 12:34:28 loop: running=0 done=4 12:34:28 ALL 4 BASES SETTLED\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
+    "objectID": "notes/daily-log.html#园区日报-2026-09-19-夜巡-7",
+    "href": "notes/daily-log.html#园区日报-2026-09-19-夜巡-7",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "园区日报 2026-09-19 · 夜巡",
+    "text": "园区日报 2026-09-19 · 夜巡"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia-7",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia-7",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\n7923353 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nf0e5c5b mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nb2a9b9b 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录\ne2bad24 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\ndb4d3a4 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n854fb2e H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)\nce92b67 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册\nda506ac xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)\n156d106 M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)\nd477c14 M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁\n351d962 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)\n64233f0 atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病\n983bb7d xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第\nfcd4953 Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名\n6c58ba7 Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天\nd901575 atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)\n17b821f Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上\nad94393 torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新\n2fa9f95 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤\n9397618 MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py\n66e7e74 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nac95b87 dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静\n3d8252f mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n29adf90 daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note\nd8ae302 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n4e6ee3c Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay\n1c38194 Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms\n81e3a96 Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10\n(+46 条自动快照，略)\n\n\n\nConcept-Space-Sphere\n\n02f508b 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略\nbb2cd5b 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)\n93fffee 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f\n9111ef0 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留\n\n\n\nGRAPHIA\n\ne14611a daily digest 2026-09-19 (evening patrol, machine-written)\nd7b2052 daily digest 2026-09-19 (evening patrol, machine-written)\n6036e95 daily digest 2026-09-19 (evening patrol, machine-written)\n63e252d daily digest 2026-09-19 (evening patrol, machine-written)\n25364a0 daily digest 2026-09-19 (evening patrol, machine-written)\na13b0b5 daily digest 2026-09-19 (evening patrol, machine-written)\n22215d1 daily digest 2026-09-19 (evening patrol, machine-written)"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-6",
+    "href": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-6",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (Apple ☑ + MS To Do ☑ 并集)",
+    "text": "今日批复 (Apple ☑ + MS To Do ☑ 并集)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS 每日memo ☑MS 🧪 通路自证 Mac→Exchange→To Do (Lola ☑MS 此刻应已现身您手机) ☑MS 你好lola ☑MS 回复：你好主人 — 双向桥检收 ✔ (iCloud晨圈+ToDo镜像 ☑MS 勾即批复)"
+  },
+  {
+    "objectID": "notes/daily-log.html#kaggle-矩阵近况-7",
+    "href": "notes/daily-log.html#kaggle-矩阵近况-7",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "Kaggle 矩阵近况",
+    "text": "Kaggle 矩阵近况\n12:34:13 qwen15 ERROR (见 2) 12:34:19 qwen3 ERROR (见 2) 12:34:23 qwen7 ERROR (见 2) 12:34:28 llama1 ERROR (见 2) 12:34:28 loop: running=0 done=4 12:34:28 ALL 4 BASES SETTLED\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
+    "objectID": "notes/daily-log.html#园区日报-2026-09-19-夜巡-8",
+    "href": "notes/daily-log.html#园区日报-2026-09-19-夜巡-8",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "园区日报 2026-09-19 · 夜巡",
+    "text": "园区日报 2026-09-19 · 夜巡"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia-8",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia-8",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\n1989430 第三屏正式通车: daily_note.py 定稿 (sanitize: 反斜翻倍/摘直引/弯引归正三段政策, 多行 repeat 删除重建) + 夜巡挂钩绝对路径 — 一稿三面定式闭环: 提醒=批复, 邮件=读物, 备忘录=回看; 两役学费 (一行式 repeat 与引号丛林) 皆化为码内注释\n8739063 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n7923353 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nf0e5c5b mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nb2a9b9b 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录\ne2bad24 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\ndb4d3a4 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n854fb2e H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)\nce92b67 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册\nda506ac xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)\n156d106 M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)\nd477c14 M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁\n351d962 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)\n64233f0 atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病\n983bb7d xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第\nfcd4953 Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名\n6c58ba7 Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天\nd901575 atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)\n17b821f Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上\nad94393 torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新\n2fa9f95 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤\n9397618 MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py\n66e7e74 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nac95b87 dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静\n3d8252f mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n29adf90 daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note\nd8ae302 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n4e6ee3c Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay\n1c38194 Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms\n81e3a96 Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10\n(+46 条自动快照，略)\n\n\n\nConcept-Space-Sphere\n\n02f508b 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略\nbb2cd5b 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)\n93fffee 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f\n9111ef0 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留\n\n\n\nGRAPHIA\n\n3cb93a9 daily digest 2026-09-19 (evening patrol, machine-written)\ne14611a daily digest 2026-09-19 (evening patrol, machine-written)\nd7b2052 daily digest 2026-09-19 (evening patrol, machine-written)\n6036e95 daily digest 2026-09-19 (evening patrol, machine-written)\n63e252d daily digest 2026-09-19 (evening patrol, machine-written)\n25364a0 daily digest 2026-09-19 (evening patrol, machine-written)\na13b0b5 daily digest 2026-09-19 (evening patrol, machine-written)\n22215d1 daily digest 2026-09-19 (evening patrol, machine-written)"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-7",
+    "href": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-7",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (Apple ☑ + MS To Do ☑ 并集)",
+    "text": "今日批复 (Apple ☑ + MS To Do ☑ 并集)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS 每日memo ☑MS 🧪 通路自证 Mac→Exchange→To Do (Lola ☑MS 此刻应已现身您手机) ☑MS 你好lola ☑MS 回复：你好主人 — 双向桥检收 ✔ (iCloud晨圈+ToDo镜像 ☑MS 勾即批复)"
+  },
+  {
+    "objectID": "notes/daily-log.html#kaggle-矩阵近况-8",
+    "href": "notes/daily-log.html#kaggle-矩阵近况-8",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "Kaggle 矩阵近况",
+    "text": "Kaggle 矩阵近况\n12:34:13 qwen15 ERROR (见 2) 12:34:19 qwen3 ERROR (见 2) 12:34:23 qwen7 ERROR (见 2) 12:34:28 llama1 ERROR (见 2) 12:34:28 loop: running=0 done=4 12:34:28 ALL 4 BASES SETTLED\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
+    "objectID": "notes/daily-log.html#园区日报-2026-09-19-夜巡-9",
+    "href": "notes/daily-log.html#园区日报-2026-09-19-夜巡-9",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "园区日报 2026-09-19 · 夜巡",
+    "text": "园区日报 2026-09-19 · 夜巡"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia-9",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia-9",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\n1a619f8 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n1989430 第三屏正式通车: daily_note.py 定稿 (sanitize: 反斜翻倍/摘直引/弯引归正三段政策, 多行 repeat 删除重建) + 夜巡挂钩绝对路径 — 一稿三面定式闭环: 提醒=批复, 邮件=读物, 备忘录=回看; 两役学费 (一行式 repeat 与引号丛林) 皆化为码内注释\n8739063 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n7923353 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nf0e5c5b mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nb2a9b9b 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录\ne2bad24 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\ndb4d3a4 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n854fb2e H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)\nce92b67 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册\nda506ac xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)\n156d106 M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)\nd477c14 M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁\n351d962 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)\n64233f0 atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病\n983bb7d xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第\nfcd4953 Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名\n6c58ba7 Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天\nd901575 atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)\n17b821f Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上\nad94393 torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新\n2fa9f95 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤\n9397618 MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py\n66e7e74 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nac95b87 dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静\n3d8252f mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n29adf90 daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note\nd8ae302 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n4e6ee3c Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay\n1c38194 Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms\n81e3a96 Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10\n(+46 条自动快照，略)\n\n\n\nConcept-Space-Sphere\n\n02f508b 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略\nbb2cd5b 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)\n93fffee 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f\n9111ef0 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留\n\n\n\nGRAPHIA\n\na73848a daily digest 2026-09-19 (evening patrol, machine-written)\n3cb93a9 daily digest 2026-09-19 (evening patrol, machine-written)\ne14611a daily digest 2026-09-19 (evening patrol, machine-written)\nd7b2052 daily digest 2026-09-19 (evening patrol, machine-written)\n6036e95 daily digest 2026-09-19 (evening patrol, machine-written)\n63e252d daily digest 2026-09-19 (evening patrol, machine-written)\n25364a0 daily digest 2026-09-19 (evening patrol, machine-written)\na13b0b5 daily digest 2026-09-19 (evening patrol, machine-written)\n22215d1 daily digest 2026-09-19 (evening patrol, machine-written)"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-8",
+    "href": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-8",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (Apple ☑ + MS To Do ☑ 并集)",
+    "text": "今日批复 (Apple ☑ + MS To Do ☑ 并集)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS 每日memo ☑MS 🧪 通路自证 Mac→Exchange→To Do (Lola ☑MS 此刻应已现身您手机) ☑MS 你好lola ☑MS 回复：你好主人 — 双向桥检收 ✔ (iCloud晨圈+ToDo镜像 ☑MS 勾即批复)"
+  },
+  {
+    "objectID": "notes/daily-log.html#kaggle-矩阵近况-9",
+    "href": "notes/daily-log.html#kaggle-矩阵近况-9",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "Kaggle 矩阵近况",
+    "text": "Kaggle 矩阵近况\npushed llama1 pushed llama1 pushed llama1 pushed llama1 pushed llama1 pushed llama1\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
+    "objectID": "notes/daily-log.html#园区日报-2026-09-19-夜巡-10",
+    "href": "notes/daily-log.html#园区日报-2026-09-19-夜巡-10",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "园区日报 2026-09-19 · 夜巡",
+    "text": "园区日报 2026-09-19 · 夜巡"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia-10",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia-10",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\n50128ba 展示机版式定稿: 分节缓冲再组装 (动作→批复→战线→页脚), 噪声过滤 (mail/快照/digest 计数不列), 战线去重且滤 pushed 流水, 每园亮点≤6; 哨兵重启教训入注 (换队列必先清哨, 双开即重推 —— llama1 六连推为证)\n935012c mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n1a619f8 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n1989430 第三屏正式通车: daily_note.py 定稿 (sanitize: 反斜翻倍/摘直引/弯引归正三段政策, 多行 repeat 删除重建) + 夜巡挂钩绝对路径 — 一稿三面定式闭环: 提醒=批复, 邮件=读物, 备忘录=回看; 两役学费 (一行式 repeat 与引号丛林) 皆化为码内注释\n8739063 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n7923353 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nf0e5c5b mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nb2a9b9b 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录\ne2bad24 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\ndb4d3a4 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n854fb2e H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)\nce92b67 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册\nda506ac xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)\n156d106 M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)\nd477c14 M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁\n351d962 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)\n64233f0 atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病\n983bb7d xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第\nfcd4953 Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名\n6c58ba7 Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天\nd901575 atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)\n17b821f Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上\nad94393 torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新\n2fa9f95 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤\n9397618 MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py\n66e7e74 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nac95b87 dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静\n3d8252f mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n29adf90 daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note\nd8ae302 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n4e6ee3c Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay\n1c38194 Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms\n81e3a96 Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10\n(+46 条自动快照，略)\n\n\n\nConcept-Space-Sphere\n\n02f508b 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略\nbb2cd5b 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)\n93fffee 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f\n9111ef0 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留\n\n\n\nGRAPHIA\n\n8c0c496 daily digest 2026-09-19 (evening patrol, machine-written)\na73848a daily digest 2026-09-19 (evening patrol, machine-written)\n3cb93a9 daily digest 2026-09-19 (evening patrol, machine-written)\ne14611a daily digest 2026-09-19 (evening patrol, machine-written)\nd7b2052 daily digest 2026-09-19 (evening patrol, machine-written)\n6036e95 daily digest 2026-09-19 (evening patrol, machine-written)\n63e252d daily digest 2026-09-19 (evening patrol, machine-written)\n25364a0 daily digest 2026-09-19 (evening patrol, machine-written)\na13b0b5 daily digest 2026-09-19 (evening patrol, machine-written)\n22215d1 daily digest 2026-09-19 (evening patrol, machine-written)"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-9",
+    "href": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-9",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (Apple ☑ + MS To Do ☑ 并集)",
+    "text": "今日批复 (Apple ☑ + MS To Do ☑ 并集)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS 每日memo ☑MS 🧪 通路自证 Mac→Exchange→To Do (Lola ☑MS 此刻应已现身您手机) ☑MS 你好lola ☑MS 回复：你好主人 — 双向桥检收 ✔ (iCloud晨圈+ToDo镜像 ☑MS 勾即批复)"
+  },
+  {
+    "objectID": "notes/daily-log.html#kaggle-矩阵近况-10",
+    "href": "notes/daily-log.html#kaggle-矩阵近况-10",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "Kaggle 矩阵近况",
+    "text": "Kaggle 矩阵近况\npushed llama1 pushed llama1 pushed llama1 pushed qwen7 15:32:18 ALL DONE pushed xdom\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
+    "objectID": "notes/daily-log.html#园区日报-2026-09-19-夜巡-11",
+    "href": "notes/daily-log.html#园区日报-2026-09-19-夜巡-11",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "园区日报 2026-09-19 · 夜巡",
+    "text": "园区日报 2026-09-19 · 夜巡"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia-11",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia-11",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\n8befb34 晨昏双巡认新名: 提醒列表与 To Do 专单皆 Concept-Space (EAS 建单成功, 镜像不再混入主人「任务」私单); todo_graph 遗案同名对齐\n1242ad6 mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n50128ba 展示机版式定稿: 分节缓冲再组装 (动作→批复→战线→页脚), 噪声过滤 (mail/快照/digest 计数不列), 战线去重且滤 pushed 流水, 每园亮点≤6; 哨兵重启教训入注 (换队列必先清哨, 双开即重推 —— llama1 六连推为证)\n935012c mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n1a619f8 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n1989430 第三屏正式通车: daily_note.py 定稿 (sanitize: 反斜翻倍/摘直引/弯引归正三段政策, 多行 repeat 删除重建) + 夜巡挂钩绝对路径 — 一稿三面定式闭环: 提醒=批复, 邮件=读物, 备忘录=回看; 两役学费 (一行式 repeat 与引号丛林) 皆化为码内注释\n8739063 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n7923353 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nf0e5c5b mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nb2a9b9b 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录\ne2bad24 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\ndb4d3a4 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n854fb2e H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)\nce92b67 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册\nda506ac xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)\n156d106 M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)\nd477c14 M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁\n351d962 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)\n64233f0 atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病\n983bb7d xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第\nfcd4953 Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名\n6c58ba7 Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天\nd901575 atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)\n17b821f Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上\nad94393 torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新\n2fa9f95 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤\n9397618 MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py\n66e7e74 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nac95b87 dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静\n3d8252f mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n29adf90 daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note\nd8ae302 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n4e6ee3c Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay\n1c38194 Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms\n81e3a96 Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10\n(+46 条自动快照，略)\n\n\n\nConcept-Space-Sphere\n\n34ed8d6 三屏一统: 提醒列表更名 Concept-Space (原 园区·GRAPHIA, 条目随迁), AGENTS 名录同步; remind.sh 认新名 + To Do 冒烟\n02f508b 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略\nbb2cd5b 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)\n93fffee 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f\n9111ef0 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留\n\n\n\nGRAPHIA\n\n4562b48 daily digest 2026-09-19 (evening patrol, machine-written)\n8c0c496 daily digest 2026-09-19 (evening patrol, machine-written)\na73848a daily digest 2026-09-19 (evening patrol, machine-written)\n3cb93a9 daily digest 2026-09-19 (evening patrol, machine-written)\ne14611a daily digest 2026-09-19 (evening patrol, machine-written)\nd7b2052 daily digest 2026-09-19 (evening patrol, machine-written)\n6036e95 daily digest 2026-09-19 (evening patrol, machine-written)\n63e252d daily digest 2026-09-19 (evening patrol, machine-written)\n25364a0 daily digest 2026-09-19 (evening patrol, machine-written)\na13b0b5 daily digest 2026-09-19 (evening patrol, machine-written)\n22215d1 daily digest 2026-09-19 (evening patrol, machine-written)"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-10",
+    "href": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-10",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (Apple ☑ + MS To Do ☑ 并集)",
+    "text": "今日批复 (Apple ☑ + MS To Do ☑ 并集)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS"
+  },
+  {
+    "objectID": "notes/daily-log.html#kaggle-矩阵近况-11",
+    "href": "notes/daily-log.html#kaggle-矩阵近况-11",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "Kaggle 矩阵近况",
+    "text": "Kaggle 矩阵近况\npushed atlas pushed atlas pushed atlas pushed atlas pushed atlas pushed atlas\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
+    "objectID": "notes/daily-log.html#园区日报-2026-09-19-夜巡-12",
+    "href": "notes/daily-log.html#园区日报-2026-09-19-夜巡-12",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "园区日报 2026-09-19 · 夜巡",
+    "text": "园区日报 2026-09-19 · 夜巡"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia-12",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia-12",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\n085332a mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n8befb34 晨昏双巡认新名: 提醒列表与 To Do 专单皆 Concept-Space (EAS 建单成功, 镜像不再混入主人「任务」私单); todo_graph 遗案同名对齐\n1242ad6 mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n50128ba 展示机版式定稿: 分节缓冲再组装 (动作→批复→战线→页脚), 噪声过滤 (mail/快照/digest 计数不列), 战线去重且滤 pushed 流水, 每园亮点≤6; 哨兵重启教训入注 (换队列必先清哨, 双开即重推 —— llama1 六连推为证)\n935012c mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n1a619f8 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n1989430 第三屏正式通车: daily_note.py 定稿 (sanitize: 反斜翻倍/摘直引/弯引归正三段政策, 多行 repeat 删除重建) + 夜巡挂钩绝对路径 — 一稿三面定式闭环: 提醒=批复, 邮件=读物, 备忘录=回看; 两役学费 (一行式 repeat 与引号丛林) 皆化为码内注释\n8739063 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n7923353 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nf0e5c5b mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nb2a9b9b 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录\ne2bad24 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\ndb4d3a4 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n854fb2e H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)\nce92b67 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册\nda506ac xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)\n156d106 M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)\nd477c14 M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁\n351d962 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)\n64233f0 atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病\n983bb7d xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第\nfcd4953 Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名\n6c58ba7 Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天\nd901575 atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)\n17b821f Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上\nad94393 torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新\n2fa9f95 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤\n9397618 MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py\n66e7e74 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nac95b87 dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静\n3d8252f mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n29adf90 daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note\nd8ae302 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n4e6ee3c Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay\n1c38194 Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms\n81e3a96 Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10\n(+46 条自动快照，略)\n\n\n\nConcept-Space-Sphere\n\n34ed8d6 三屏一统: 提醒列表更名 Concept-Space (原 园区·GRAPHIA, 条目随迁), AGENTS 名录同步; remind.sh 认新名 + To Do 冒烟\n02f508b 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略\nbb2cd5b 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)\n93fffee 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f\n9111ef0 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留\n\n\n\nGRAPHIA\n\nc0583c0 daily digest 2026-09-19 (evening patrol, machine-written)\n4562b48 daily digest 2026-09-19 (evening patrol, machine-written)\n8c0c496 daily digest 2026-09-19 (evening patrol, machine-written)\na73848a daily digest 2026-09-19 (evening patrol, machine-written)\n3cb93a9 daily digest 2026-09-19 (evening patrol, machine-written)\ne14611a daily digest 2026-09-19 (evening patrol, machine-written)\nd7b2052 daily digest 2026-09-19 (evening patrol, machine-written)\n6036e95 daily digest 2026-09-19 (evening patrol, machine-written)\n63e252d daily digest 2026-09-19 (evening patrol, machine-written)\n25364a0 daily digest 2026-09-19 (evening patrol, machine-written)\na13b0b5 daily digest 2026-09-19 (evening patrol, machine-written)\n22215d1 daily digest 2026-09-19 (evening patrol, machine-written)"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-11",
+    "href": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-11",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (Apple ☑ + MS To Do ☑ 并集)",
+    "text": "今日批复 (Apple ☑ + MS To Do ☑ 并集)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS"
+  },
+  {
+    "objectID": "notes/daily-log.html#kaggle-矩阵近况-12",
+    "href": "notes/daily-log.html#kaggle-矩阵近况-12",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "Kaggle 矩阵近况",
+    "text": "Kaggle 矩阵近况\npushed atlas pushed atlas pushed atlas pushed atlas pushed atlas pushed atlas\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
+    "objectID": "notes/daily-log.html#园区日报-2026-09-19-夜巡-13",
+    "href": "notes/daily-log.html#园区日报-2026-09-19-夜巡-13",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "园区日报 2026-09-19 · 夜巡",
+    "text": "园区日报 2026-09-19 · 夜巡"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia-13",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia-13",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\nad4edbc mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n085332a mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n8befb34 晨昏双巡认新名: 提醒列表与 To Do 专单皆 Concept-Space (EAS 建单成功, 镜像不再混入主人「任务」私单); todo_graph 遗案同名对齐\n1242ad6 mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n50128ba 展示机版式定稿: 分节缓冲再组装 (动作→批复→战线→页脚), 噪声过滤 (mail/快照/digest 计数不列), 战线去重且滤 pushed 流水, 每园亮点≤6; 哨兵重启教训入注 (换队列必先清哨, 双开即重推 —— llama1 六连推为证)\n935012c mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n1a619f8 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n1989430 第三屏正式通车: daily_note.py 定稿 (sanitize: 反斜翻倍/摘直引/弯引归正三段政策, 多行 repeat 删除重建) + 夜巡挂钩绝对路径 — 一稿三面定式闭环: 提醒=批复, 邮件=读物, 备忘录=回看; 两役学费 (一行式 repeat 与引号丛林) 皆化为码内注释\n8739063 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n7923353 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nf0e5c5b mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nb2a9b9b 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录\ne2bad24 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\ndb4d3a4 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n854fb2e H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)\nce92b67 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册\nda506ac xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)\n156d106 M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)\nd477c14 M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁\n351d962 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)\n64233f0 atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病\n983bb7d xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第\nfcd4953 Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名\n6c58ba7 Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天\nd901575 atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)\n17b821f Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上\nad94393 torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新\n2fa9f95 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤\n9397618 MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py\n66e7e74 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nac95b87 dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静\n3d8252f mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n29adf90 daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note\nd8ae302 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n4e6ee3c Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay\n1c38194 Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms\n81e3a96 Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10\n(+46 条自动快照，略)\n\n\n\nConcept-Space-Sphere\n\n34ed8d6 三屏一统: 提醒列表更名 Concept-Space (原 园区·GRAPHIA, 条目随迁), AGENTS 名录同步; remind.sh 认新名 + To Do 冒烟\n02f508b 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略\nbb2cd5b 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)\n93fffee 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f\n9111ef0 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留\n\n\n\nGRAPHIA\n\nfe4d42f daily digest 2026-09-19 (evening patrol, machine-written)\nc0583c0 daily digest 2026-09-19 (evening patrol, machine-written)\n4562b48 daily digest 2026-09-19 (evening patrol, machine-written)\n8c0c496 daily digest 2026-09-19 (evening patrol, machine-written)\na73848a daily digest 2026-09-19 (evening patrol, machine-written)\n3cb93a9 daily digest 2026-09-19 (evening patrol, machine-written)\ne14611a daily digest 2026-09-19 (evening patrol, machine-written)\nd7b2052 daily digest 2026-09-19 (evening patrol, machine-written)\n6036e95 daily digest 2026-09-19 (evening patrol, machine-written)\n63e252d daily digest 2026-09-19 (evening patrol, machine-written)\n25364a0 daily digest 2026-09-19 (evening patrol, machine-written)\na13b0b5 daily digest 2026-09-19 (evening patrol, machine-written)\n22215d1 daily digest 2026-09-19 (evening patrol, machine-written)"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-12",
+    "href": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-12",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (Apple ☑ + MS To Do ☑ 并集)",
+    "text": "今日批复 (Apple ☑ + MS To Do ☑ 并集)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS"
+  },
+  {
+    "objectID": "notes/daily-log.html#kaggle-矩阵近况-13",
+    "href": "notes/daily-log.html#kaggle-矩阵近况-13",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "Kaggle 矩阵近况",
+    "text": "Kaggle 矩阵近况\npushed atlas pushed atlas pushed atlas pushed atlas pushed atlas pushed atlas\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
+    "objectID": "notes/daily-log.html#园区日报-2026-09-19-夜巡-14",
+    "href": "notes/daily-log.html#园区日报-2026-09-19-夜巡-14",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "园区日报 2026-09-19 · 夜巡",
+    "text": "园区日报 2026-09-19 · 夜巡"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia-14",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia-14",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\n1cd444c 第四屏通车 OneNote: Cora 应用 (consumers 个人护照, device-code 一贴即通) → onenote_graph.py + daily_onenote.py 装裱 HTML 落「Concept-Space」分区; 覆帖律=一日一页 (同名先删); 沿途四虫连拔\ndfba5f3 mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nad4edbc mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n085332a mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n8befb34 晨昏双巡认新名: 提醒列表与 To Do 专单皆 Concept-Space (EAS 建单成功, 镜像不再混入主人「任务」私单); todo_graph 遗案同名对齐\n1242ad6 mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n50128ba 展示机版式定稿: 分节缓冲再组装 (动作→批复→战线→页脚), 噪声过滤 (mail/快照/digest 计数不列), 战线去重且滤 pushed 流水, 每园亮点≤6; 哨兵重启教训入注 (换队列必先清哨, 双开即重推 —— llama1 六连推为证)\n935012c mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n1a619f8 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n1989430 第三屏正式通车: daily_note.py 定稿 (sanitize: 反斜翻倍/摘直引/弯引归正三段政策, 多行 repeat 删除重建) + 夜巡挂钩绝对路径 — 一稿三面定式闭环: 提醒=批复, 邮件=读物, 备忘录=回看; 两役学费 (一行式 repeat 与引号丛林) 皆化为码内注释\n8739063 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n7923353 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nf0e5c5b mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nb2a9b9b 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿三面定式: 批复在提醒, 读物在邮件, 回看在备忘录\ne2bad24 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\ndb4d3a4 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n854fb2e H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰组降 sanity; 基线/训后分差按词面可解度分桶 = 蒙对与真会的分离实验; 港片小三角列 m1 后首发追加弹 (Agent K 生成语料, M2 开闸)\nce92b67 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册\nda506ac xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而归, 自曝一程——教训: 改卷要用卷的语言)\n156d106 M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)\nd477c14 M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁\n351d962 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)\n64233f0 atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1-verify; xdom 同检无此病\n983bb7d xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/holdout20, 判据三章入 PREREG), 无训练基线核铸好候夜哨第四发 — Qwen 的第\nfcd4953 Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名\n6c58ba7 Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆 十域 ×10 空间入库, 零重复断言仍过; 夜核弹头已换货 (embed sha 重计), 配额账期纠正入档: 启用日滚动 7 天\nd901575 atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)\n17b821f Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验证核 (0.5B 挂载+torchao 疫苗, intra/inter 可分性+弱空间榜), PREREG H-A1 准入判据在册; 夜发值守上\nad94393 torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容器漂移发现同族) — pip 自赎头+网开一面仅为此步, qwen15/qwen3 重上膛, qwen7/llama1 交新\n2fa9f95 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, qwen7/llama1 归 marshal 值守; 错误计数复位, 双失败定性前不再鸣冤\n9397618 MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权、不过期): 晨报镜像直写「任务」列表 (双向同步~5s), 夜报批复并集含 ☑MS 段; todo_graph.py\n66e7e74 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nac95b87 dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·GRAPHIA」与 MS To Do「园区·CHORA」(token 在场即镜像, 缺席静\n3d8252f mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n29adf90 daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 commits(滤自动快照)/☑批复/Kaggle 近况 → CMS 邮 theoros@chora.dev 并沉 GRAPHIA note\nd8ae302 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n4e6ee3c Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/replay\n1c38194 Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms\n81e3a96 Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done and more). T4/bf16 replicates exp10\n(+46 条自动快照，略)\n\n\n\nConcept-Space-Sphere\n\n34ed8d6 三屏一统: 提醒列表更名 Concept-Space (原 园区·GRAPHIA, 条目随迁), AGENTS 名录同步; remind.sh 认新名 + To Do 冒烟\n02f508b 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出并入忽略\nbb2cd5b 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律 (owner 09-19 钦定)\n93fffee 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f\n9111ef0 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入 AGENTS 律 — ☑即批复⌚即戳、备注即回复、开场必 read; 两场 locale 灾现场留\n\n\n\nGRAPHIA\n\n2684c18 daily digest 2026-09-19 (evening patrol, machine-written)\nfe4d42f daily digest 2026-09-19 (evening patrol, machine-written)\nc0583c0 daily digest 2026-09-19 (evening patrol, machine-written)\n4562b48 daily digest 2026-09-19 (evening patrol, machine-written)\n8c0c496 daily digest 2026-09-19 (evening patrol, machine-written)\na73848a daily digest 2026-09-19 (evening patrol, machine-written)\n3cb93a9 daily digest 2026-09-19 (evening patrol, machine-written)\ne14611a daily digest 2026-09-19 (evening patrol, machine-written)\nd7b2052 daily digest 2026-09-19 (evening patrol, machine-written)\n6036e95 daily digest 2026-09-19 (evening patrol, machine-written)\n63e252d daily digest 2026-09-19 (evening patrol, machine-written)\n25364a0 daily digest 2026-09-19 (evening patrol, machine-written)\na13b0b5 daily digest 2026-09-19 (evening patrol, machine-written)\n22215d1 daily digest 2026-09-19 (evening patrol, machine-written)"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-13",
+    "href": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-13",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (Apple ☑ + MS To Do ☑ 并集)",
+    "text": "今日批复 (Apple ☑ + MS To Do ☑ 并集)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS"
+  },
+  {
+    "objectID": "notes/daily-log.html#kaggle-矩阵近况-14",
+    "href": "notes/daily-log.html#kaggle-矩阵近况-14",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "Kaggle 矩阵近况",
+    "text": "Kaggle 矩阵近况\npushed atlas pushed atlas pushed atlas pushed atlas pushed atlas pushed atlas\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
+    "objectID": "notes/daily-log.html#园区日报-2026-09-19-夜巡-15",
+    "href": "notes/daily-log.html#园区日报-2026-09-19-夜巡-15",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "园区日报 2026-09-19 · 夜巡",
+    "text": "园区日报 2026-09-19 · 夜巡"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia-15",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia-15",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\nd194ef3 Redux-multiagent 总图入册: 多智能体宪法图 — 三物种各安其位 (流水线/工人宿舍/状态本体+selector), 站岗四法上图 (W\n3732313 全生命周期总图入册 (mermaid): 一票入门 guard · 两路工马本地/Kaggle · 三问 clarify↔︎☑ · 四账 persist/rehydrate · 四屏\n2f47d76 ORCHESTRA README 框架志合并: 解剖图/插座表/上下文铁律/加件规矩入册 (与 PoC 志一篇两节), 测试残票清出\n6afaf7b ORCHESTRA 框架骨架 v0.2 立起 (主人三问三答落地): 解剖图正物种 (middleware=流水线/enhancer=store 超能力/selector=唯一读�\n34aafeb 夜核自包含化补完: kaggle 只送 code file —— atlas/xdom 的 embed 内联到底 (atlas 更重铸净版: intra 中位/inter 抽样 400 对\n02cc2df URL 卫生层: Graph 查询与 ?title= 全量 percent-encode (空格裸奔之灾一日两现, 一处根治) — 覆帖律首验: 一日一页达成\nba38ed4 mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n1cd444c 第四屏通车 OneNote: Cora 应用 (consumers 个人护照, device-code 一贴即通) → onenote_graph.py + daily_onenote.py 装裱 HTML 落「Co\ndfba5f3 mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nad4edbc mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n085332a mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n8befb34 晨昏双巡认新名: 提醒列表与 To Do 专单皆 Concept-Space (EAS 建单成功, 镜像不再混入主人「任务」私单); todo_graph 遗�\n1242ad6 mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n50128ba 展示机版式定稿: 分节缓冲再组装 (动作→批复→战线→页脚), 噪声过滤 (mail/快照/digest 计数不列), 战线去重且滤\n935012c mail: Concept-Space 日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n1a619f8 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n1989430 第三屏正式通车: daily_note.py 定稿 (sanitize: 反斜翻倍/摘直引/弯引归正三段政策, 多行 repeat 删除重建) + 夜巡挂钩�\n8739063 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n7923353 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nf0e5c5b mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nb2a9b9b 夜巡第三屏就位: bin/daily_note.py (行级 AppleScript 组装, Notes 字符串卫生) + 日报脚本挂载在图档之后/邮件同源; 一稿\ne2bad24 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\ndb4d3a4 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n854fb2e H-A2 模糊带假说预注册 + 判卷升级: 港片域入册为极限工况 (探长原话逐字入档); 串扰金标准移港片三域组, 清晰�\nce92b67 弹随卷修: xdom-baseline 嵌入体同步 43A 修正 (payload 换货, sha 重计) — 卷、核一体, 不留两册\nda506ac xdom 卷 43A 映射真 typo 修正: expected「内查清洗」→ 户籍本名「警司内鬼」(前枚 sed 拿元组纹补 JSON 字段, 空手而�\n156d106 M1.5 通报微信转发件成文 (plain-text, 智能手机排版; Downloads 副本备主人直转 Qwen)\nd477c14 M1.5 补丁通报成文 (一页, 备主人转递 Qwen): 扩图户籍/判卷律/基线赌注/三候裁\n351d962 五户全面体检: xdom/qwen15/qwen3/qwen7/llama1 之 title 与 slug 病灶一并校正 (title=slug 原样, 登记零漂移)\n64233f0 atlas 户号手术: 12:37 老炮因 title 长句被登记到别的 slug (denied 之谜) — 今起 id↔︎title 严丝: ‘Atlas M1 Verify’ ↔︎ atlas-m1\n983bb7d xdom 考卷三连: M1.5 扩图 (港片10+科幻1+心理1 → 172空间1032token, 户籍 e1b755db…), 考卷结构化 xdom_probes.json (calib30/hold\nfcd4953 Atlas 定名入册: 主人御批「概念空间的导航图」(the nautical chart of concept spaces) — M1 图谱与后续链皆承此名\n6c58ba7 Atlas 扩至 160 组 960 token (12:43 主谕’再备 100 组明日全力跑’): 交通/饮食/服饰/建筑/音乐/运动/农林/匠工/天象/节庆\nd901575 atlas-m1 上板 (kind=dev) + 大件输出目录入忽略 (matrix_out 里的 adapter 山不入 git)\n17b821f Atlas 模块一 · 备妥待夜航: 60 空间×360 token 确定性图谱 (七域, 时间权重按文档钦定律, 觉醒循环用原例), Kaggle 验\nad94393 torchao 疫苗入弹: Kaggle 镜像午后漂移 (0.5B 早晨基线全绿 vs 1.5B/3B 午前 ImportError — 容器连’今日’都在变, 与晨间容�\n2fa9f95 引用层手术: 内联只换了定义、漏改用法行 (matrix_corpus_embed.PAYLOAD → PAYLOAD) — 四座残留清零, qwen15/qwen3 重上膛, q\n9397618 MS To Do 通道改走 Exchange 直书 (owner 于 iPhone/Mac 挂 Exchange 账户, Azure 注册与信用卡方案作废 — 桥不注册、不授权�\n66e7e74 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\nac95b87 dual-channel daily digest wired (owner: ms to do 一并实现, 不影响同步) + kaggle 四座军械归一: 晨报双挂 Apple Reminders「园区·\n3d8252f mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n29adf90 daily-report 双巡上弦 + Exp11 kaggle 军械入库: 晨报把看板未决逐条挂进「园区·GRAPHIA」(勾掉即批复), 夜巡汇编两园 c\nd8ae302 mail: 园区日报 2026-09-19 (lola@chora.dev → theoros@chora.dev)\n4e6ee3c Orchestra PoC (owner’s morning proposals #2/#3): redux 5 + redux-saga 1.5 agent-bus with chain-bottom persistence middleware — two-act crash/repla\n1c38194 Exp11 rides the Kaggle workhorse: self-contained kernel (corpus embedded+sha-asserted, official Qwen2.5-0.5B-Instruct mounted offline) trains 3 arms\n81e3a96 Exp11 gains its workhorse: Kaggle pipeline runs end-to-end (owner commission #1, ‘如果可以的话以 0.5B 做基线跑通整个流程’ — done a\n(+46 条自动快照，略)\n\n\n\nConcept-Space-Sphere\n\nacbbb72 xdom 考卷原件入册 (0935d630…) + 归档账刷新\n34ed8d6 三屏一统: 提醒列表更名 Concept-Space (原 园区·GRAPHIA, 条目随迁), AGENTS 名录同步; remind.sh 认新名 + To Do 冒烟\n02f508b 净身补课: external/ 是检疫暂存区不入 git (入库之物皆已过 intake 门有收据), .pending-push 为值守者草稿痕 — 皆逐出�\nbb2cd5b 搬迁扫尾 + GitHub 重试律入典: 大搬迁遗留的 root 化石删除与 README/runner 尾差补齐, AGENTS 追加通讯障碍六试挂账律\n93fffee 模块一委托书过门: atlas_module1.docx pin 61e17591… (LETHE intake), 图谱本体外建于 chora@17b821f\n9111ef0 园区 ⇄ 主人提醒事项正式联动: bin/remind.sh (add/read/done/purge, 「园区·GRAPHIA」列表 iCloud 直达 iPhone) + follow 协议入\n\n\n\nGRAPHIA\n\nb5470d8 daily digest 2026-09-19 (evening patrol, machine-written)\n2684c18 daily digest 2026-09-19 (evening patrol, machine-written)\nfe4d42f daily digest 2026-09-19 (evening patrol, machine-written)\nc0583c0 daily digest 2026-09-19 (evening patrol, machine-written)\n4562b48 daily digest 2026-09-19 (evening patrol, machine-written)\n8c0c496 daily digest 2026-09-19 (evening patrol, machine-written)\na73848a daily digest 2026-09-19 (evening patrol, machine-written)\n3cb93a9 daily digest 2026-09-19 (evening patrol, machine-written)\ne14611a daily digest 2026-09-19 (evening patrol, machine-written)\nd7b2052 daily digest 2026-09-19 (evening patrol, machine-written)\n6036e95 daily digest 2026-09-19 (evening patrol, machine-written)\n63e252d daily digest 2026-09-19 (evening patrol, machine-written)\n25364a0 daily digest 2026-09-19 (evening patrol, machine-written)\na13b0b5 daily digest 2026-09-19 (evening patrol, machine-written)\n22215d1 daily digest 2026-09-19 (evening patrol, machine-written)"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-14",
+    "href": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-14",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (Apple ☑ + MS To Do ☑ 并集)",
+    "text": "今日批复 (Apple ☑ + MS To Do ☑ 并集)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复 ☑MS"
+  },
+  {
+    "objectID": "notes/daily-log.html#kaggle-矩阵近况-15",
+    "href": "notes/daily-log.html#kaggle-矩阵近况-15",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "Kaggle 矩阵近况",
+    "text": "Kaggle 矩阵近况\n20:28:26 qwen15 denied(2) 宽限 20:28:28 qwen3 denied(2) 宽限 20:28:30 atlas denied(2) 宽限 20:28:31 xdom denied(2) 宽限 20:28:33 qwen7 denied(2) 宽限 20:28:34 llama1 denied(2) 宽限\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
+    "objectID": "notes/daily-log.html#园区日报-2026-09-20-夜巡",
+    "href": "notes/daily-log.html#园区日报-2026-09-20-夜巡",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "园区日报 2026-09-20 · 夜巡",
+    "text": "园区日报 2026-09-20 · 夜巡"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日-commits-chora-lethe-graphia-16",
+    "href": "notes/daily-log.html#今日-commits-chora-lethe-graphia-16",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日 commits (chora / LETHE / GRAPHIA)",
+    "text": "今日 commits (chora / LETHE / GRAPHIA)\n\nchora\n\nbdfd4ea exp16/16b placeholder 自伤愈合(glob 已活: rows 1780/8383/212), 双弹重射\nd8ecba0 exp16 glob recursive 一行修重射; exp16b-llama1b 铸成入队尾(pad 保险); pocket 警报首响实录\n9f09998 exp12 回匣入库(双不对称翻转+夏零对照副产物)\n5cce0df exp13b 回匣报告入库; _engine13 train() save_pretrained; atlas v2 真身补铸\n0f091cd 羊毛入库: Kaggle Research Grant + MCP 文档 PDF 盖 sha 存档 (artifacts/external)\n79a90ad exp13 主报回匣(真弹丸 exp13-mixscan-11-point-gap-test, COMPLETE, 7.6min): 单调无跳变+三角鼓包85°→123°+边缘大摆幅(cos 1.0→\n9e89e1f 六匣之五铸齐上链: exp13b 黑白缝/exp12 时间保真/exp14 xdom中心化复考/exp15 港片小三角@3B (引擎共用 _engine13, 园线超�\nb752a06 Exp13「混合之缝」铸弹: 11 点比例梯度扫描(0.5B 园线超参 seed13, dvec 角曲线+插值偏离量+中心化探针+8 边界句双峰�\nc35d1bf kaggle 战地整肃夜半毕：三类病原同治——weld 毒(TextIOWrapper, 四座解毒)/孤模块(xdom+m2 内联)/7B 换 4bit 轻甲；发现 K\n0e17527 九月二十 09:15 第二波军械入库: atlas v2 (all-but-the-mean 中心化余弦, 破各向异性地板, 附 centroid/token 双轨碰撞榜与�\naa7ccca 晨报加哨位: redux-saga RFC #2784 评论数/状态每日随报 (外界有回音第一时间知道)\n\n\n\nConcept-Space-Sphere\n\n3341614 园门添径: cora-atlas → 软链至 ../cora-atlas（同 CHORA 工作区 benches 手法的园区版——门是路径, 不是第二份房子; 链�"
+  },
+  {
+    "objectID": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-15",
+    "href": "notes/daily-log.html#今日批复-apple-ms-to-do-并集-15",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "今日批复 (Apple ☑ + MS To Do ☑ 并集)",
+    "text": "今日批复 (Apple ☑ + MS To Do ☑ 并集)\n• 🧪 联动自证：Lola 经 bin/remind.sh 挂的条☀️ 晨圈 09-19：勾掉=点菜/批复🧪 更名后冒烟: 三屏同名 Concept-Space☀️ 晨圈 09-20：勾掉=点菜/批复 ☑MS 🧪 To Do 专单冒烟 (EAS→服务器→iPhone To Do)"
+  },
+  {
+    "objectID": "notes/daily-log.html#外界哨位",
+    "href": "notes/daily-log.html#外界哨位",
+    "title": "GRAPHIA · 概念空间正交性案头",
+    "section": "外界哨位",
+    "text": "外界哨位\n· redux-saga RFC #2784 → 评论 0 | 状态 open ## Kaggle 矩阵近况 15:14:50 bw ERROR 尸检归档 15:14:53 t12 ERROR 尸检归档 15:14:56 x2 ERROR 尸检归档 15:14:58 tri ERROR 尸检归档 19:11:53 ord ERROR 尸检归档; ping_pocket 夜哨告警: ord ERROR 19:22:46 ord2 ERROR 尸检归档; ping_pocket 夜哨告警: ord2 ERROR\ndispatched by bin/daily-report.sh · 回执请 reply"
+  },
+  {
     "objectID": "notes/exp10-note.html",
     "href": "notes/exp10-note.html",
     "title": "Exp10 实验笔记 · 概念空间正交性验证",
@@ -61,5 +530,19 @@
     "title": "GRAPHIA · bench V",
     "section": "",
     "text": "GRAPHIA 因一个发现而立：同一个冻结基座上、不同领域的 LoRA 专家，其 \\(\\Delta W\\) 写方向近乎正交 （五域十对 \\(|\\Delta W_{\\text{ov}}}|_{\\max}=0.129\\)，三种子齐），读方向完全共享（15 对 V-A 全平 ≈3.8）；把两域数据混成一炉训出的”中间型”是插值，不是第三空间 —— 概念的可组合性 \\(W=W_0+\\sum_i p_i\\Delta W_i\\) 因此成立于权重几何，而不成立于输出的可分辨性（两专家在答案 的每个位置上都比各自与基座更像 —— 10c 全序列复审，两种 token 分组定义下同果）。\n\n📋 实验笔记 — 依 Qwen 报告框架六节成文，全部表格经 great_tables 美化（与 MEF 同款），含当日自我审计\n📄 论文 — paper/exp10-paper.pdf（tectonic 亲手排版；GRAPHIA 版含图）\n🔬 Exp11 矩阵进行中 — P0 (Qwen2.5-1.5B) 已闭：H8 格 PASS（max 0.137，锚点 0.592/0.637），H7 通用探针 PASS（≈0.02 — 通用 LoRA 是第六位正交书写者）；P1 候主人网络点头\n\n数据不出籍：所有数字按 (path, sha256) 指回 chora artifacts/results/exp10|11/（manifest 四向校验 0 失败）。 本站由 Quarto 织成 —— 与邻案 MEF 同一台织机。"
+  },
+  {
+    "objectID": "notes/STYLE-SHEETS.html",
+    "href": "notes/STYLE-SHEETS.html",
+    "title": "STYLE-SHEETS —— 平台语体卡（园子写作宪法 · v1 2026-09-21）",
+    "section": "",
+    "text": "原则：同一组数字，不同上下文分布 = 允许不同的风格坍缩；禁止的是数字本身被修辞篡改。 每篇稿发布前对照本卡自检；发布件与论文件共享同一冻结账本（cora-atlas/LEDGER.md）。\n\n\n\n\n\n\n\n\n\n\n\n\n平台\n空间原型\n开场\n修辞配额\n数字纪律\n收尾\n\n\n\n\n知乎\n讲故事的人\n悬念/自嘲第一句\n比喻 ≤5/千字，可抒情，须带一个可反驳论点\n主结果必出现，破缺自曝优先写\n引到评论区对账\n\n\nMedium\n文人工程师\n文学性但≤2句铺垫\n比喻 ≤2/千字；金句只许脚注位\n全量数字，附录账表\nReproducibility 段\n\n\nODSC/技术博客\n60分钟教程\nhow-to 承诺句\n形容词出现前先问”数据在哪个表”\n每节一个可复跑配方\nTry it yourself（3行）\n\n\nX/微博\n俳句擂台\n直接上数字\n零比喻或一个箭头\n一条一数字\n链回长文\n\n\n公众号（若开）\n长谈+家书\n场景白描\n中\n数字入正文非插图\n留一个开放问题\n\n\n币乎类\n财富锥\n——不投\n——\n——\n除非写成尾部概率风控文，且不用”家人们”\n\n\n\n\n\n\n未冻结的数不发；破缺（如 7B 回弹、xdom 路由未改善）不得从任何平台版本中被”润”掉。\n署名与作者手不变：几何卷 Lola、概率卷 Qwen、合稿注明两手，主人定稿权。\n平台限流/审核差异不是改数据的理由——只许换叙述顺序，不许换结论方向。"
+  },
+  {
+    "objectID": "notes/STYLE-SHEETS.html#三条红线任何平台无豁免",
+    "href": "notes/STYLE-SHEETS.html#三条红线任何平台无豁免",
+    "title": "STYLE-SHEETS —— 平台语体卡（园子写作宪法 · v1 2026-09-21）",
+    "section": "",
+    "text": "未冻结的数不发；破缺（如 7B 回弹、xdom 路由未改善）不得从任何平台版本中被”润”掉。\n署名与作者手不变：几何卷 Lola、概率卷 Qwen、合稿注明两手，主人定稿权。\n平台限流/审核差异不是改数据的理由——只许换叙述顺序，不许换结论方向。"
   }
 ]
