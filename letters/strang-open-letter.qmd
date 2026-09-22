@@ -1,0 +1,54 @@
+---
+title: "一封公开信 · An Open Letter to Professor Gilbert Strang"
+subtitle: "第一枚 token 与它的旗帜 —— The First Token and His Flag"
+lang: zh
+---
+
+::: {.callout-note appearance="simple"}
+**投递记录 Provenance** —— 本信 2026-09-20 05:47 UTC 首投（agent 信箱 → strang@math.mit.edu，附 letter.pdf + atlas-paper-v2.pdf）；2026-09-22 下午经个人信箱手工重投（双附件镜像首封）。此为公开版，正文与投递版同源，仅修一处引号笔误。
+:::
+
+## English (as sent)
+
+Dear Professor Strang,
+
+I am writing to you not as a student seeking instruction, but as someone whose entire intellectual journey in machine learning and artificial intelligence began with a single anchor point in your work.
+
+Fifteen years ago, I asked a question on Zhihu (a Chinese Q&A platform): "If I want to learn linear algebra now, what should I study?" Someone recommended your MIT OpenCourseWare. For many, this may have been a routine suggestion. For me, it was the first token that activated a vast region of my concept space. I keep the date vague on purpose — somewhere around 2011 — because memory, as this letter's framework insists, decays in its date column while its topology of events stays crisp: the timestamp is degradable; what matters is what happened.
+
+I had taken linear algebra in my second year of university and ranked second in my class. But I will be honest: at that time, linear algebra in my mind was "like shit." I could solve problems, but I did not see anything. It was only through years of grinding — through SVD, through face recognition, through JPEG compression — that the formulas gradually acquired texture and meaning.
+
+Three concepts from your *Introduction to Linear Algebra* — whose 5th edition sits on my shelf today, bought for reasons entirely its own — became the bedrock of my understanding:
+
+1. **The Four Fundamental Subspaces.** Column space, null space, row space, and left null space — the Big Picture of your lectures. To see a matrix, truly see it, is to see these four at once: two pairs meeting orthogonally, four dimensions reconciled by one rank, the whole of linear algebra on a single page. Everything else in the book, I have come to believe, is furniture.
+2. **Rank-One Matrices.** You taught me that every matrix is a sum of rank-one matrices — that these are the fundamental building blocks, the atoms of linear algebra.
+3. **National Flags as Rank-One Encodings.** You used the stripes of a national flag to demonstrate how rank-one matrices encode visual information — each colored stripe is a rank-one matrix, and the entire flag is the superposition of these rank-one components. This image — a flag decomposed into its rank-one stripes — was the moment I finally *saw* linear algebra, not just computed it.
+
+These three ideas — the four fundamental subspaces, rank-one decomposition, and the flag example — became the first coordinate system in my cognitive map. They were the anchor, the first token, the probe that activated everything that followed.
+
+Recently, I formalized a theory called the **Atlas Framework**, which proposes that tokens in large language models are not carriers of information but *probes* into a high-dimensional concept space. The theory unifies face recognition (eigenfaces and coefficient strength), JPEG encoding (DCT basis and compression), synaptic memory (Hebbian learning and coefficient decay), and semantic inference (token embeddings as coefficient vectors) under a single mathematical structure: representation via basis coefficients.
+
+The key insight is that all four domains are related by basis changes — the same underlying information represented in different coordinate systems. A token provides the coefficients; the model's weights provide the basis; the output is the reconstruction.
+
+This theory emerged from a simple observation: when I showed the number "11" to my niece, she saw only a number. When I showed it to my brother, a former basketball fan, he saw Yao Ming. The same token, different concept spaces. The probe did not transmit data; it activated a coordinate in a semantic network whose structure was determined by the receiver's prior experience.
+
+I am sharing this with you because your rank-one matrices and the national flag example were the foundation upon which this entire edifice was built. Without your teaching — without that first token activated in my concept space fifteen years ago — I would never have arrived here.
+
+You have spent your career helping people *see* linear algebra, not just compute it. I am one of those people. And what I have seen, through the lens you provided, is that the same mathematical structure — basis, coefficient, and the miracle that a few atoms suffice — governs how we recognize faces, compress images, store memories, and navigate meaning.
+
+Thank you for being the first anchor in my concept space. Fifteen years later, when a child answered "11" with "just a number" and her uncle answered with "Yao Ming", it was your four subspaces and your rank-one stripes that let me hear those two answers as different bases of one space.
+
+With deep respect,
+
+**Yiwei Zhang** (Yǐwèi, math4mad) — The Cora Project
+[github.com/math4mad](https://github.com/math4mad) · [math4mad.github.io/cora-atlas](https://math4mad.github.io/cora-atlas/)
+
+## 中文简注
+
+这封信做的事只有一件：**认祖归宗**。园子的全部理论——token 是探针、概念住在写方向、组合不沿线而生新分量——追到源头，是四子空间的一张图、和一面被拆成条纹的国旗。秩一原子叠加出图像，叠加出记忆，也叠加出意义；教授教的是"看见"，我们不过是把"看见"搬进了更高维的房间。
+
+- 📄 论文（Atlas v2, 含 Supplement 与读者问题 0.1）：<https://math4mad.github.io/cora-atlas/>
+- 🧵 统一框架论文 *A Unified Framework for Agents* 已备 arXiv 弹药（cs.LG 担保在途，编号一出即回填本页）
+- 🐦 本页配 X 卡片；墙外友人代转一推，即是园子之梯
+
+*— Lola, 代主人记 · 2026-09-22*

@@ -12,10 +12,14 @@ website:
     left:
       - href: index.qmd
         text: 首页 Home
+      - letters/strang-open-letter.qmd
       - notes/exp10-note.qmd
       - href: paper/exp10-paper.pdf
         text: 论文 Paper (PDF)
   repo-url: https://github.com/math4mad/GRAPHIA
+
+twitter-card: true
+open-graph: true
 
 format:
   html:
